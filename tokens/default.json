@@ -67,6 +67,56 @@
         "value": "#005f9e",
         "type": "color"
       }
+    },
+    "button": {
+      "primary": {
+        "background": {
+          "value": "#005f9e",
+          "type": "color"
+        }
+      },
+      "ghost": {
+        "outline": {
+          "value": "#000",
+          "type": "color"
+        },
+        "text": {
+          "value": "#000",
+          "type": "color"
+        }
+      }
+    },
+    "borderWidth": {
+      "button": {
+        "ghost": {
+          "value": 4,
+          "type": "borderWidth"
+        }
+      }
+    },
+    "borderRadius": {
+      "button": {
+        "ghost": {
+          "value": 8,
+          "type": "borderRadius"
+        }
+      },
+      "card": {
+        "value": 4,
+        "type": "borderRadius"
+      }
+    },
+    "fontSizes": {
+      "card": {
+        "title": {
+          "value": 26,
+          "type": "fontSizes"
+        },
+        "content": {
+          "value": 21,
+          "type": "fontSizes"
+        }
+      }
     }
   }
 }
