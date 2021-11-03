@@ -631,8 +631,10 @@ video {
   --theme-border-width-button-ghost: 4;
   --theme-border-radius-button-ghost: 8;
   --theme-border-radius-card: 4;
-  --theme-font-sizes-card-title: 26;
-  --theme-font-sizes-card-content: 21;
+  --theme-font-families-heading: Gotham;
+  --theme-font-families-body: Helvetica Neue;
+  --theme-font-families-nav: Helvetica Neue;
+  --theme-font-sizes-default: 16;
 }
 
 /* @import "output/dark.css"; */

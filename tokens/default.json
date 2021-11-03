@@ -106,16 +106,24 @@
         "type": "borderRadius"
       }
     },
+    "fontFamilies": {
+      "heading": {
+        "value": "Gotham",
+        "type": "fontFamilies"
+      },
+      "body": {
+        "value": "Helvetica Neue",
+        "type": "fontFamilies"
+      },
+      "nav": {
+        "value": "Helvetica Neue",
+        "type": "fontFamilies"
+      }
+    },
     "fontSizes": {
-      "card": {
-        "title": {
-          "value": 26,
-          "type": "fontSizes"
-        },
-        "content": {
-          "value": 21,
-          "type": "fontSizes"
-        }
+      "default": {
+        "value": 16,
+        "type": "fontSizes"
       }
     }
   }
