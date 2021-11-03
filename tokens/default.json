@@ -96,13 +96,15 @@
     },
     "borderRadius": {
       "button": {
-        "ghost": {
-          "value": 8,
-          "type": "borderRadius"
-        }
+        "value": 8,
+        "type": "borderRadius"
       },
       "card": {
-        "value": 4,
+        "value": 8,
+        "type": "borderRadius"
+      },
+      "input": {
+        "value": 8,
         "type": "borderRadius"
       }
     },

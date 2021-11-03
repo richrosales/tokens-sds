@@ -19,8 +19,9 @@
   --theme-button-ghost-outline: #000;
   --theme-button-ghost-text: #000;
   --theme-border-width-button-ghost: 4;
-  --theme-border-radius-button-ghost: 8;
-  --theme-border-radius-card: 4;
+  --theme-border-radius-button: 8;
+  --theme-border-radius-card: 8;
+  --theme-border-radius-input: 8;
   --theme-font-families-heading: Gotham;
   --theme-font-families-body: Helvetica Neue;
   --theme-font-families-nav: Gotham;
