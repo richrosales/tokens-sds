@@ -628,7 +628,7 @@ video {
   --theme-button-primary-background: #005f9e;
   --theme-button-ghost-outline: #000;
   --theme-button-ghost-text: #000;
-  --theme-border-width-button-ghost: 4;
+  --theme-border-width-button-ghost: 1;
   --theme-border-radius-button: 8;
   --theme-border-radius-card: 8;
   --theme-border-radius-input: 8;
