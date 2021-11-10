@@ -6,11 +6,11 @@
         "type": "color"
       },
       "header": {
-        "value": "#171717",
+        "value": "#ffffff",
         "type": "color"
       },
       "footer": {
-        "value": "#000",
+        "value": "#f5f5f5",
         "type": "color"
       },
       "surface": {
@@ -40,7 +40,7 @@
     },
     "fg": {
       "default": {
-        "value": "#000",
+        "value": "#000000",
         "type": "color"
       },
       "onAccent": {
@@ -48,11 +48,11 @@
         "type": "color"
       },
       "onHeader": {
-        "value": "#ffffff",
+        "value": "#323232",
         "type": "color"
       },
       "onFooter": {
-        "value": "#ffffff",
+        "value": "#424242",
         "type": "color"
       },
       "muted": {
@@ -77,11 +77,11 @@
       },
       "ghost": {
         "outline": {
-          "value": "#000",
+          "value": "#000000",
           "type": "color"
         },
         "text": {
-          "value": "#000",
+          "value": "#000000",
           "type": "color"
         }
       }
@@ -89,36 +89,36 @@
     "borderWidth": {
       "button": {
         "ghost": {
-          "value": 1,
+          "value": 4,
           "type": "borderWidth"
         }
       }
     },
     "borderRadius": {
       "button": {
-        "value": 8,
+        "value": 0,
         "type": "borderRadius"
       },
       "card": {
-        "value": 8,
+        "value": 0,
         "type": "borderRadius"
       },
       "input": {
-        "value": 8,
+        "value": 0,
         "type": "borderRadius"
       }
     },
     "fontFamilies": {
-      "heading": {
+      "display": {
         "value": "Gotham",
         "type": "fontFamilies"
       },
       "body": {
-        "value": "Helvetica Neue",
+        "value": "Helvetica Display Neue",
         "type": "fontFamilies"
       },
       "nav": {
-        "value": "Gotham",
+        "value": "Helvetica Display Neue",
         "type": "fontFamilies"
       }
     },
