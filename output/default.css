@@ -1,7 +1,7 @@
 .default-theme {
   --theme-bg-default: #fcfcfc;
   --theme-bg-header: #212121;
-  --theme-bg-footer: #323232;
+  --theme-bg-footer: #212121;
   --theme-bg-surface: #ffffff;
   --theme-bg-surface-alt: #eeeeee;
   --theme-bg-primary: #005f9e;
