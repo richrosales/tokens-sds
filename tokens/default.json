@@ -6,11 +6,11 @@
         "type": "color"
       },
       "header": {
-        "value": "#2a2f3c",
+        "value": "#242930",
         "type": "color"
       },
       "footer": {
-        "value": "#2a2f3c",
+        "value": "#242930",
         "type": "color"
       },
       "surface": {
@@ -26,15 +26,15 @@
         "type": "color"
       },
       "secondary": {
-        "value": "#aeb3bd",
+        "value": "#adb4bc",
         "type": "color"
       },
       "subtle": {
-        "value": "#ecedf0",
+        "value": "#eceef0",
         "type": "color"
       },
       "muted": {
-        "value": "#d0d3d9",
+        "value": "#cfd3d8",
         "type": "color"
       }
     },
@@ -48,19 +48,19 @@
         "type": "color"
       },
       "onHeader": {
-        "value": "#ecedf0",
+        "value": "#eceef0",
         "type": "color"
       },
       "onFooter": {
-        "value": "#d0d3d9",
+        "value": "#cfd3d8",
         "type": "color"
       },
       "muted": {
-        "value": "#818999",
+        "value": "#7f8a97",
         "type": "color"
       },
       "subtle": {
-        "value": "#aeb3bd",
+        "value": "#adb4bc",
         "type": "color"
       },
       "link": {

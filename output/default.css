@@ -1,19 +1,19 @@
 .default-theme {
   --theme-bg-default: #f9f9fa;
-  --theme-bg-header: #2a2f3c;
-  --theme-bg-footer: #2a2f3c;
+  --theme-bg-header: #242930;
+  --theme-bg-footer: #242930;
   --theme-bg-surface: #ffffff;
   --theme-bg-surface-alt: #eeeeee;
   --theme-bg-primary: #005f9e;
-  --theme-bg-secondary: #aeb3bd;
-  --theme-bg-subtle: #ecedf0;
-  --theme-bg-muted: #d0d3d9;
+  --theme-bg-secondary: #adb4bc;
+  --theme-bg-subtle: #eceef0;
+  --theme-bg-muted: #cfd3d8;
   --theme-fg-default: #000000;
   --theme-fg-on-accent: #ffffff;
-  --theme-fg-on-header: #ecedf0;
-  --theme-fg-on-footer: #d0d3d9;
-  --theme-fg-muted: #818999;
-  --theme-fg-subtle: #aeb3bd;
+  --theme-fg-on-header: #eceef0;
+  --theme-fg-on-footer: #cfd3d8;
+  --theme-fg-muted: #7f8a97;
+  --theme-fg-subtle: #adb4bc;
   --theme-fg-link: #005f9e;
   --theme-button-primary-background: #005f9e;
   --theme-button-ghost-outline: #000000;
