@@ -1,9 +1,9 @@
 .default-theme {
-  --theme-bg-default: #f9f9fa;
+  --theme-bg-default: #ffffff;
   --theme-bg-header: #242930;
   --theme-bg-footer: #242930;
   --theme-bg-surface: #ffffff;
-  --theme-bg-surface-alt: #eeeeee;
+  --theme-bg-surface-alt: #f9f9fa;
   --theme-bg-primary: #005f9e;
   --theme-bg-secondary: #adb4bc;
   --theme-bg-subtle: #eceef0;

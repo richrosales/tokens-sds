@@ -609,11 +609,11 @@ video {
 }
 
 .default-theme {
-  --theme-bg-default: #f9f9fa;
+  --theme-bg-default: #ffffff;
   --theme-bg-header: #242930;
   --theme-bg-footer: #242930;
   --theme-bg-surface: #ffffff;
-  --theme-bg-surface-alt: #eeeeee;
+  --theme-bg-surface-alt: #f9f9fa;
   --theme-bg-primary: #005f9e;
   --theme-bg-secondary: #adb4bc;
   --theme-bg-subtle: #eceef0;
@@ -644,7 +644,7 @@ html, body {
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: var(--theme-bg-default, #f9f9fa);
+  background-color: var(--theme-bg-default, #ffffff);
   color: var(--theme-fg-default, #000000);
 }
 
@@ -11833,7 +11833,7 @@ html, body {
 }
 
 .divide-theme-bg-default > :not([hidden]) ~ :not([hidden]) {
-  border-color: var(--theme-bg-default, #f9f9fa);
+  border-color: var(--theme-bg-default, #ffffff);
 }
 
 .divide-theme-bg-header > :not([hidden]) ~ :not([hidden]) {
@@ -11849,7 +11849,7 @@ html, body {
 }
 
 .divide-theme-bg-surfaceAlt > :not([hidden]) ~ :not([hidden]) {
-  border-color: var(--theme-bg-surface-alt, #eeeeee);
+  border-color: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .divide-theme-bg-primary > :not([hidden]) ~ :not([hidden]) {
@@ -12647,7 +12647,7 @@ html, body {
 }
 
 .border-theme-bg-default {
-  border-color: var(--theme-bg-default, #f9f9fa);
+  border-color: var(--theme-bg-default, #ffffff);
 }
 
 .border-theme-bg-header {
@@ -12663,7 +12663,7 @@ html, body {
 }
 
 .border-theme-bg-surfaceAlt {
-  border-color: var(--theme-bg-surface-alt, #eeeeee);
+  border-color: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .border-theme-bg-primary {
@@ -12723,7 +12723,7 @@ html, body {
 }
 
 .group:hover .group-hover\:border-theme-bg-default {
-  border-color: var(--theme-bg-default, #f9f9fa);
+  border-color: var(--theme-bg-default, #ffffff);
 }
 
 .group:hover .group-hover\:border-theme-bg-header {
@@ -12739,7 +12739,7 @@ html, body {
 }
 
 .group:hover .group-hover\:border-theme-bg-surfaceAlt {
-  border-color: var(--theme-bg-surface-alt, #eeeeee);
+  border-color: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .group:hover .group-hover\:border-theme-bg-primary {
@@ -12799,7 +12799,7 @@ html, body {
 }
 
 .focus-within\:border-theme-bg-default:focus-within {
-  border-color: var(--theme-bg-default, #f9f9fa);
+  border-color: var(--theme-bg-default, #ffffff);
 }
 
 .focus-within\:border-theme-bg-header:focus-within {
@@ -12815,7 +12815,7 @@ html, body {
 }
 
 .focus-within\:border-theme-bg-surfaceAlt:focus-within {
-  border-color: var(--theme-bg-surface-alt, #eeeeee);
+  border-color: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .focus-within\:border-theme-bg-primary:focus-within {
@@ -12875,7 +12875,7 @@ html, body {
 }
 
 .hover\:border-theme-bg-default:hover {
-  border-color: var(--theme-bg-default, #f9f9fa);
+  border-color: var(--theme-bg-default, #ffffff);
 }
 
 .hover\:border-theme-bg-header:hover {
@@ -12891,7 +12891,7 @@ html, body {
 }
 
 .hover\:border-theme-bg-surfaceAlt:hover {
-  border-color: var(--theme-bg-surface-alt, #eeeeee);
+  border-color: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .hover\:border-theme-bg-primary:hover {
@@ -12951,7 +12951,7 @@ html, body {
 }
 
 .focus\:border-theme-bg-default:focus {
-  border-color: var(--theme-bg-default, #f9f9fa);
+  border-color: var(--theme-bg-default, #ffffff);
 }
 
 .focus\:border-theme-bg-header:focus {
@@ -12967,7 +12967,7 @@ html, body {
 }
 
 .focus\:border-theme-bg-surfaceAlt:focus {
-  border-color: var(--theme-bg-surface-alt, #eeeeee);
+  border-color: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .focus\:border-theme-bg-primary:focus {
@@ -13327,7 +13327,7 @@ html, body {
 }
 
 .bg-theme-bg-default {
-  background-color: var(--theme-bg-default, #f9f9fa);
+  background-color: var(--theme-bg-default, #ffffff);
 }
 
 .bg-theme-bg-header {
@@ -13343,7 +13343,7 @@ html, body {
 }
 
 .bg-theme-bg-surfaceAlt {
-  background-color: var(--theme-bg-surface-alt, #eeeeee);
+  background-color: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .bg-theme-bg-primary {
@@ -13403,7 +13403,7 @@ html, body {
 }
 
 .group:hover .group-hover\:bg-theme-bg-default {
-  background-color: var(--theme-bg-default, #f9f9fa);
+  background-color: var(--theme-bg-default, #ffffff);
 }
 
 .group:hover .group-hover\:bg-theme-bg-header {
@@ -13419,7 +13419,7 @@ html, body {
 }
 
 .group:hover .group-hover\:bg-theme-bg-surfaceAlt {
-  background-color: var(--theme-bg-surface-alt, #eeeeee);
+  background-color: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .group:hover .group-hover\:bg-theme-bg-primary {
@@ -13479,7 +13479,7 @@ html, body {
 }
 
 .focus-within\:bg-theme-bg-default:focus-within {
-  background-color: var(--theme-bg-default, #f9f9fa);
+  background-color: var(--theme-bg-default, #ffffff);
 }
 
 .focus-within\:bg-theme-bg-header:focus-within {
@@ -13495,7 +13495,7 @@ html, body {
 }
 
 .focus-within\:bg-theme-bg-surfaceAlt:focus-within {
-  background-color: var(--theme-bg-surface-alt, #eeeeee);
+  background-color: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .focus-within\:bg-theme-bg-primary:focus-within {
@@ -13555,7 +13555,7 @@ html, body {
 }
 
 .hover\:bg-theme-bg-default:hover {
-  background-color: var(--theme-bg-default, #f9f9fa);
+  background-color: var(--theme-bg-default, #ffffff);
 }
 
 .hover\:bg-theme-bg-header:hover {
@@ -13571,7 +13571,7 @@ html, body {
 }
 
 .hover\:bg-theme-bg-surfaceAlt:hover {
-  background-color: var(--theme-bg-surface-alt, #eeeeee);
+  background-color: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .hover\:bg-theme-bg-primary:hover {
@@ -13631,7 +13631,7 @@ html, body {
 }
 
 .focus\:bg-theme-bg-default:focus {
-  background-color: var(--theme-bg-default, #f9f9fa);
+  background-color: var(--theme-bg-default, #ffffff);
 }
 
 .focus\:bg-theme-bg-header:focus {
@@ -13647,7 +13647,7 @@ html, body {
 }
 
 .focus\:bg-theme-bg-surfaceAlt:focus {
-  background-color: var(--theme-bg-surface-alt, #eeeeee);
+  background-color: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .focus\:bg-theme-bg-primary:focus {
@@ -14043,7 +14043,7 @@ html, body {
 }
 
 .from-theme-bg-default {
-  --tw-gradient-from: var(--theme-bg-default, #f9f9fa);
+  --tw-gradient-from: var(--theme-bg-default, #ffffff);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
@@ -14063,7 +14063,7 @@ html, body {
 }
 
 .from-theme-bg-surfaceAlt {
-  --tw-gradient-from: var(--theme-bg-surface-alt, #eeeeee);
+  --tw-gradient-from: var(--theme-bg-surface-alt, #f9f9fa);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
@@ -14138,7 +14138,7 @@ html, body {
 }
 
 .hover\:from-theme-bg-default:hover {
-  --tw-gradient-from: var(--theme-bg-default, #f9f9fa);
+  --tw-gradient-from: var(--theme-bg-default, #ffffff);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
@@ -14158,7 +14158,7 @@ html, body {
 }
 
 .hover\:from-theme-bg-surfaceAlt:hover {
-  --tw-gradient-from: var(--theme-bg-surface-alt, #eeeeee);
+  --tw-gradient-from: var(--theme-bg-surface-alt, #f9f9fa);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
@@ -14233,7 +14233,7 @@ html, body {
 }
 
 .focus\:from-theme-bg-default:focus {
-  --tw-gradient-from: var(--theme-bg-default, #f9f9fa);
+  --tw-gradient-from: var(--theme-bg-default, #ffffff);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
@@ -14253,7 +14253,7 @@ html, body {
 }
 
 .focus\:from-theme-bg-surfaceAlt:focus {
-  --tw-gradient-from: var(--theme-bg-surface-alt, #eeeeee);
+  --tw-gradient-from: var(--theme-bg-surface-alt, #f9f9fa);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
@@ -14328,7 +14328,7 @@ html, body {
 }
 
 .via-theme-bg-default {
-  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #ffffff), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
 .via-theme-bg-header {
@@ -14344,7 +14344,7 @@ html, body {
 }
 
 .via-theme-bg-surfaceAlt {
-  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #eeeeee), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
 .via-theme-bg-primary {
@@ -14404,7 +14404,7 @@ html, body {
 }
 
 .hover\:via-theme-bg-default:hover {
-  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #ffffff), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
 .hover\:via-theme-bg-header:hover {
@@ -14420,7 +14420,7 @@ html, body {
 }
 
 .hover\:via-theme-bg-surfaceAlt:hover {
-  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #eeeeee), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
 .hover\:via-theme-bg-primary:hover {
@@ -14480,7 +14480,7 @@ html, body {
 }
 
 .focus\:via-theme-bg-default:focus {
-  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #ffffff), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
 .focus\:via-theme-bg-header:focus {
@@ -14496,7 +14496,7 @@ html, body {
 }
 
 .focus\:via-theme-bg-surfaceAlt:focus {
-  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #eeeeee), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
 .focus\:via-theme-bg-primary:focus {
@@ -14556,7 +14556,7 @@ html, body {
 }
 
 .to-theme-bg-default {
-  --tw-gradient-to: var(--theme-bg-default, #f9f9fa);
+  --tw-gradient-to: var(--theme-bg-default, #ffffff);
 }
 
 .to-theme-bg-header {
@@ -14572,7 +14572,7 @@ html, body {
 }
 
 .to-theme-bg-surfaceAlt {
-  --tw-gradient-to: var(--theme-bg-surface-alt, #eeeeee);
+  --tw-gradient-to: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .to-theme-bg-primary {
@@ -14632,7 +14632,7 @@ html, body {
 }
 
 .hover\:to-theme-bg-default:hover {
-  --tw-gradient-to: var(--theme-bg-default, #f9f9fa);
+  --tw-gradient-to: var(--theme-bg-default, #ffffff);
 }
 
 .hover\:to-theme-bg-header:hover {
@@ -14648,7 +14648,7 @@ html, body {
 }
 
 .hover\:to-theme-bg-surfaceAlt:hover {
-  --tw-gradient-to: var(--theme-bg-surface-alt, #eeeeee);
+  --tw-gradient-to: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .hover\:to-theme-bg-primary:hover {
@@ -14708,7 +14708,7 @@ html, body {
 }
 
 .focus\:to-theme-bg-default:focus {
-  --tw-gradient-to: var(--theme-bg-default, #f9f9fa);
+  --tw-gradient-to: var(--theme-bg-default, #ffffff);
 }
 
 .focus\:to-theme-bg-header:focus {
@@ -14724,7 +14724,7 @@ html, body {
 }
 
 .focus\:to-theme-bg-surfaceAlt:focus {
-  --tw-gradient-to: var(--theme-bg-surface-alt, #eeeeee);
+  --tw-gradient-to: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .focus\:to-theme-bg-primary:focus {
@@ -16349,7 +16349,7 @@ html, body {
 }
 
 .text-theme-bg-default {
-  color: var(--theme-bg-default, #f9f9fa);
+  color: var(--theme-bg-default, #ffffff);
 }
 
 .text-theme-bg-header {
@@ -16365,7 +16365,7 @@ html, body {
 }
 
 .text-theme-bg-surfaceAlt {
-  color: var(--theme-bg-surface-alt, #eeeeee);
+  color: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .text-theme-bg-primary {
@@ -16425,7 +16425,7 @@ html, body {
 }
 
 .group:hover .group-hover\:text-theme-bg-default {
-  color: var(--theme-bg-default, #f9f9fa);
+  color: var(--theme-bg-default, #ffffff);
 }
 
 .group:hover .group-hover\:text-theme-bg-header {
@@ -16441,7 +16441,7 @@ html, body {
 }
 
 .group:hover .group-hover\:text-theme-bg-surfaceAlt {
-  color: var(--theme-bg-surface-alt, #eeeeee);
+  color: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .group:hover .group-hover\:text-theme-bg-primary {
@@ -16501,7 +16501,7 @@ html, body {
 }
 
 .focus-within\:text-theme-bg-default:focus-within {
-  color: var(--theme-bg-default, #f9f9fa);
+  color: var(--theme-bg-default, #ffffff);
 }
 
 .focus-within\:text-theme-bg-header:focus-within {
@@ -16517,7 +16517,7 @@ html, body {
 }
 
 .focus-within\:text-theme-bg-surfaceAlt:focus-within {
-  color: var(--theme-bg-surface-alt, #eeeeee);
+  color: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .focus-within\:text-theme-bg-primary:focus-within {
@@ -16577,7 +16577,7 @@ html, body {
 }
 
 .hover\:text-theme-bg-default:hover {
-  color: var(--theme-bg-default, #f9f9fa);
+  color: var(--theme-bg-default, #ffffff);
 }
 
 .hover\:text-theme-bg-header:hover {
@@ -16593,7 +16593,7 @@ html, body {
 }
 
 .hover\:text-theme-bg-surfaceAlt:hover {
-  color: var(--theme-bg-surface-alt, #eeeeee);
+  color: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .hover\:text-theme-bg-primary:hover {
@@ -16653,7 +16653,7 @@ html, body {
 }
 
 .focus\:text-theme-bg-default:focus {
-  color: var(--theme-bg-default, #f9f9fa);
+  color: var(--theme-bg-default, #ffffff);
 }
 
 .focus\:text-theme-bg-header:focus {
@@ -16669,7 +16669,7 @@ html, body {
 }
 
 .focus\:text-theme-bg-surfaceAlt:focus {
-  color: var(--theme-bg-surface-alt, #eeeeee);
+  color: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .focus\:text-theme-bg-primary:focus {
@@ -17099,15 +17099,15 @@ html, body {
 }
 
 .placeholder-theme-bg-default::-moz-placeholder {
-  color: var(--theme-bg-default, #f9f9fa);
+  color: var(--theme-bg-default, #ffffff);
 }
 
 .placeholder-theme-bg-default:-ms-input-placeholder {
-  color: var(--theme-bg-default, #f9f9fa);
+  color: var(--theme-bg-default, #ffffff);
 }
 
 .placeholder-theme-bg-default::placeholder {
-  color: var(--theme-bg-default, #f9f9fa);
+  color: var(--theme-bg-default, #ffffff);
 }
 
 .placeholder-theme-bg-header::-moz-placeholder {
@@ -17147,15 +17147,15 @@ html, body {
 }
 
 .placeholder-theme-bg-surfaceAlt::-moz-placeholder {
-  color: var(--theme-bg-surface-alt, #eeeeee);
+  color: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .placeholder-theme-bg-surfaceAlt:-ms-input-placeholder {
-  color: var(--theme-bg-surface-alt, #eeeeee);
+  color: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .placeholder-theme-bg-surfaceAlt::placeholder {
-  color: var(--theme-bg-surface-alt, #eeeeee);
+  color: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .placeholder-theme-bg-primary::-moz-placeholder {
@@ -17327,15 +17327,15 @@ html, body {
 }
 
 .focus\:placeholder-theme-bg-default:focus::-moz-placeholder {
-  color: var(--theme-bg-default, #f9f9fa);
+  color: var(--theme-bg-default, #ffffff);
 }
 
 .focus\:placeholder-theme-bg-default:focus:-ms-input-placeholder {
-  color: var(--theme-bg-default, #f9f9fa);
+  color: var(--theme-bg-default, #ffffff);
 }
 
 .focus\:placeholder-theme-bg-default:focus::placeholder {
-  color: var(--theme-bg-default, #f9f9fa);
+  color: var(--theme-bg-default, #ffffff);
 }
 
 .focus\:placeholder-theme-bg-header:focus::-moz-placeholder {
@@ -17375,15 +17375,15 @@ html, body {
 }
 
 .focus\:placeholder-theme-bg-surfaceAlt:focus::-moz-placeholder {
-  color: var(--theme-bg-surface-alt, #eeeeee);
+  color: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .focus\:placeholder-theme-bg-surfaceAlt:focus:-ms-input-placeholder {
-  color: var(--theme-bg-surface-alt, #eeeeee);
+  color: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .focus\:placeholder-theme-bg-surfaceAlt:focus::placeholder {
-  color: var(--theme-bg-surface-alt, #eeeeee);
+  color: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .focus\:placeholder-theme-bg-primary:focus::-moz-placeholder {
@@ -18721,7 +18721,7 @@ html, body {
 }
 
 .ring-theme-bg-default {
-  --tw-ring-color: var(--theme-bg-default, #f9f9fa);
+  --tw-ring-color: var(--theme-bg-default, #ffffff);
 }
 
 .ring-theme-bg-header {
@@ -18737,7 +18737,7 @@ html, body {
 }
 
 .ring-theme-bg-surfaceAlt {
-  --tw-ring-color: var(--theme-bg-surface-alt, #eeeeee);
+  --tw-ring-color: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .ring-theme-bg-primary {
@@ -18797,7 +18797,7 @@ html, body {
 }
 
 .focus-within\:ring-theme-bg-default:focus-within {
-  --tw-ring-color: var(--theme-bg-default, #f9f9fa);
+  --tw-ring-color: var(--theme-bg-default, #ffffff);
 }
 
 .focus-within\:ring-theme-bg-header:focus-within {
@@ -18813,7 +18813,7 @@ html, body {
 }
 
 .focus-within\:ring-theme-bg-surfaceAlt:focus-within {
-  --tw-ring-color: var(--theme-bg-surface-alt, #eeeeee);
+  --tw-ring-color: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .focus-within\:ring-theme-bg-primary:focus-within {
@@ -18873,7 +18873,7 @@ html, body {
 }
 
 .focus\:ring-theme-bg-default:focus {
-  --tw-ring-color: var(--theme-bg-default, #f9f9fa);
+  --tw-ring-color: var(--theme-bg-default, #ffffff);
 }
 
 .focus\:ring-theme-bg-header:focus {
@@ -18889,7 +18889,7 @@ html, body {
 }
 
 .focus\:ring-theme-bg-surfaceAlt:focus {
-  --tw-ring-color: var(--theme-bg-surface-alt, #eeeeee);
+  --tw-ring-color: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .focus\:ring-theme-bg-primary:focus {
@@ -19189,7 +19189,7 @@ html, body {
 }
 
 .ring-offset-theme-bg-default {
-  --tw-ring-offset-color: var(--theme-bg-default, #f9f9fa);
+  --tw-ring-offset-color: var(--theme-bg-default, #ffffff);
 }
 
 .ring-offset-theme-bg-header {
@@ -19205,7 +19205,7 @@ html, body {
 }
 
 .ring-offset-theme-bg-surfaceAlt {
-  --tw-ring-offset-color: var(--theme-bg-surface-alt, #eeeeee);
+  --tw-ring-offset-color: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .ring-offset-theme-bg-primary {
@@ -19265,7 +19265,7 @@ html, body {
 }
 
 .focus-within\:ring-offset-theme-bg-default:focus-within {
-  --tw-ring-offset-color: var(--theme-bg-default, #f9f9fa);
+  --tw-ring-offset-color: var(--theme-bg-default, #ffffff);
 }
 
 .focus-within\:ring-offset-theme-bg-header:focus-within {
@@ -19281,7 +19281,7 @@ html, body {
 }
 
 .focus-within\:ring-offset-theme-bg-surfaceAlt:focus-within {
-  --tw-ring-offset-color: var(--theme-bg-surface-alt, #eeeeee);
+  --tw-ring-offset-color: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .focus-within\:ring-offset-theme-bg-primary:focus-within {
@@ -19341,7 +19341,7 @@ html, body {
 }
 
 .focus\:ring-offset-theme-bg-default:focus {
-  --tw-ring-offset-color: var(--theme-bg-default, #f9f9fa);
+  --tw-ring-offset-color: var(--theme-bg-default, #ffffff);
 }
 
 .focus\:ring-offset-theme-bg-header:focus {
@@ -19357,7 +19357,7 @@ html, body {
 }
 
 .focus\:ring-offset-theme-bg-surfaceAlt:focus {
-  --tw-ring-offset-color: var(--theme-bg-surface-alt, #eeeeee);
+  --tw-ring-offset-color: var(--theme-bg-surface-alt, #f9f9fa);
 }
 
 .focus\:ring-offset-theme-bg-primary:focus {
@@ -31208,7 +31208,7 @@ html, body {
   }
 
   .sm\:divide-theme-bg-default > :not([hidden]) ~ :not([hidden]) {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .sm\:divide-theme-bg-header > :not([hidden]) ~ :not([hidden]) {
@@ -31224,7 +31224,7 @@ html, body {
   }
 
   .sm\:divide-theme-bg-surfaceAlt > :not([hidden]) ~ :not([hidden]) {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .sm\:divide-theme-bg-primary > :not([hidden]) ~ :not([hidden]) {
@@ -32022,7 +32022,7 @@ html, body {
   }
 
   .sm\:border-theme-bg-default {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .sm\:border-theme-bg-header {
@@ -32038,7 +32038,7 @@ html, body {
   }
 
   .sm\:border-theme-bg-surfaceAlt {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .sm\:border-theme-bg-primary {
@@ -32098,7 +32098,7 @@ html, body {
   }
 
   .group:hover .sm\:group-hover\:border-theme-bg-default {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .group:hover .sm\:group-hover\:border-theme-bg-header {
@@ -32114,7 +32114,7 @@ html, body {
   }
 
   .group:hover .sm\:group-hover\:border-theme-bg-surfaceAlt {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .group:hover .sm\:group-hover\:border-theme-bg-primary {
@@ -32174,7 +32174,7 @@ html, body {
   }
 
   .sm\:focus-within\:border-theme-bg-default:focus-within {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .sm\:focus-within\:border-theme-bg-header:focus-within {
@@ -32190,7 +32190,7 @@ html, body {
   }
 
   .sm\:focus-within\:border-theme-bg-surfaceAlt:focus-within {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .sm\:focus-within\:border-theme-bg-primary:focus-within {
@@ -32250,7 +32250,7 @@ html, body {
   }
 
   .sm\:hover\:border-theme-bg-default:hover {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .sm\:hover\:border-theme-bg-header:hover {
@@ -32266,7 +32266,7 @@ html, body {
   }
 
   .sm\:hover\:border-theme-bg-surfaceAlt:hover {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .sm\:hover\:border-theme-bg-primary:hover {
@@ -32326,7 +32326,7 @@ html, body {
   }
 
   .sm\:focus\:border-theme-bg-default:focus {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .sm\:focus\:border-theme-bg-header:focus {
@@ -32342,7 +32342,7 @@ html, body {
   }
 
   .sm\:focus\:border-theme-bg-surfaceAlt:focus {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .sm\:focus\:border-theme-bg-primary:focus {
@@ -32702,7 +32702,7 @@ html, body {
   }
 
   .sm\:bg-theme-bg-default {
-    background-color: var(--theme-bg-default, #f9f9fa);
+    background-color: var(--theme-bg-default, #ffffff);
   }
 
   .sm\:bg-theme-bg-header {
@@ -32718,7 +32718,7 @@ html, body {
   }
 
   .sm\:bg-theme-bg-surfaceAlt {
-    background-color: var(--theme-bg-surface-alt, #eeeeee);
+    background-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .sm\:bg-theme-bg-primary {
@@ -32778,7 +32778,7 @@ html, body {
   }
 
   .group:hover .sm\:group-hover\:bg-theme-bg-default {
-    background-color: var(--theme-bg-default, #f9f9fa);
+    background-color: var(--theme-bg-default, #ffffff);
   }
 
   .group:hover .sm\:group-hover\:bg-theme-bg-header {
@@ -32794,7 +32794,7 @@ html, body {
   }
 
   .group:hover .sm\:group-hover\:bg-theme-bg-surfaceAlt {
-    background-color: var(--theme-bg-surface-alt, #eeeeee);
+    background-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .group:hover .sm\:group-hover\:bg-theme-bg-primary {
@@ -32854,7 +32854,7 @@ html, body {
   }
 
   .sm\:focus-within\:bg-theme-bg-default:focus-within {
-    background-color: var(--theme-bg-default, #f9f9fa);
+    background-color: var(--theme-bg-default, #ffffff);
   }
 
   .sm\:focus-within\:bg-theme-bg-header:focus-within {
@@ -32870,7 +32870,7 @@ html, body {
   }
 
   .sm\:focus-within\:bg-theme-bg-surfaceAlt:focus-within {
-    background-color: var(--theme-bg-surface-alt, #eeeeee);
+    background-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .sm\:focus-within\:bg-theme-bg-primary:focus-within {
@@ -32930,7 +32930,7 @@ html, body {
   }
 
   .sm\:hover\:bg-theme-bg-default:hover {
-    background-color: var(--theme-bg-default, #f9f9fa);
+    background-color: var(--theme-bg-default, #ffffff);
   }
 
   .sm\:hover\:bg-theme-bg-header:hover {
@@ -32946,7 +32946,7 @@ html, body {
   }
 
   .sm\:hover\:bg-theme-bg-surfaceAlt:hover {
-    background-color: var(--theme-bg-surface-alt, #eeeeee);
+    background-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .sm\:hover\:bg-theme-bg-primary:hover {
@@ -33006,7 +33006,7 @@ html, body {
   }
 
   .sm\:focus\:bg-theme-bg-default:focus {
-    background-color: var(--theme-bg-default, #f9f9fa);
+    background-color: var(--theme-bg-default, #ffffff);
   }
 
   .sm\:focus\:bg-theme-bg-header:focus {
@@ -33022,7 +33022,7 @@ html, body {
   }
 
   .sm\:focus\:bg-theme-bg-surfaceAlt:focus {
-    background-color: var(--theme-bg-surface-alt, #eeeeee);
+    background-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .sm\:focus\:bg-theme-bg-primary:focus {
@@ -33418,7 +33418,7 @@ html, body {
   }
 
   .sm\:from-theme-bg-default {
-    --tw-gradient-from: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-from: var(--theme-bg-default, #ffffff);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -33438,7 +33438,7 @@ html, body {
   }
 
   .sm\:from-theme-bg-surfaceAlt {
-    --tw-gradient-from: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-from: var(--theme-bg-surface-alt, #f9f9fa);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -33513,7 +33513,7 @@ html, body {
   }
 
   .sm\:hover\:from-theme-bg-default:hover {
-    --tw-gradient-from: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-from: var(--theme-bg-default, #ffffff);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -33533,7 +33533,7 @@ html, body {
   }
 
   .sm\:hover\:from-theme-bg-surfaceAlt:hover {
-    --tw-gradient-from: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-from: var(--theme-bg-surface-alt, #f9f9fa);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -33608,7 +33608,7 @@ html, body {
   }
 
   .sm\:focus\:from-theme-bg-default:focus {
-    --tw-gradient-from: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-from: var(--theme-bg-default, #ffffff);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -33628,7 +33628,7 @@ html, body {
   }
 
   .sm\:focus\:from-theme-bg-surfaceAlt:focus {
-    --tw-gradient-from: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-from: var(--theme-bg-surface-alt, #f9f9fa);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -33703,7 +33703,7 @@ html, body {
   }
 
   .sm\:via-theme-bg-default {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #ffffff), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .sm\:via-theme-bg-header {
@@ -33719,7 +33719,7 @@ html, body {
   }
 
   .sm\:via-theme-bg-surfaceAlt {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #eeeeee), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .sm\:via-theme-bg-primary {
@@ -33779,7 +33779,7 @@ html, body {
   }
 
   .sm\:hover\:via-theme-bg-default:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #ffffff), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .sm\:hover\:via-theme-bg-header:hover {
@@ -33795,7 +33795,7 @@ html, body {
   }
 
   .sm\:hover\:via-theme-bg-surfaceAlt:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #eeeeee), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .sm\:hover\:via-theme-bg-primary:hover {
@@ -33855,7 +33855,7 @@ html, body {
   }
 
   .sm\:focus\:via-theme-bg-default:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #ffffff), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .sm\:focus\:via-theme-bg-header:focus {
@@ -33871,7 +33871,7 @@ html, body {
   }
 
   .sm\:focus\:via-theme-bg-surfaceAlt:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #eeeeee), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .sm\:focus\:via-theme-bg-primary:focus {
@@ -33931,7 +33931,7 @@ html, body {
   }
 
   .sm\:to-theme-bg-default {
-    --tw-gradient-to: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-to: var(--theme-bg-default, #ffffff);
   }
 
   .sm\:to-theme-bg-header {
@@ -33947,7 +33947,7 @@ html, body {
   }
 
   .sm\:to-theme-bg-surfaceAlt {
-    --tw-gradient-to: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-to: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .sm\:to-theme-bg-primary {
@@ -34007,7 +34007,7 @@ html, body {
   }
 
   .sm\:hover\:to-theme-bg-default:hover {
-    --tw-gradient-to: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-to: var(--theme-bg-default, #ffffff);
   }
 
   .sm\:hover\:to-theme-bg-header:hover {
@@ -34023,7 +34023,7 @@ html, body {
   }
 
   .sm\:hover\:to-theme-bg-surfaceAlt:hover {
-    --tw-gradient-to: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-to: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .sm\:hover\:to-theme-bg-primary:hover {
@@ -34083,7 +34083,7 @@ html, body {
   }
 
   .sm\:focus\:to-theme-bg-default:focus {
-    --tw-gradient-to: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-to: var(--theme-bg-default, #ffffff);
   }
 
   .sm\:focus\:to-theme-bg-header:focus {
@@ -34099,7 +34099,7 @@ html, body {
   }
 
   .sm\:focus\:to-theme-bg-surfaceAlt:focus {
-    --tw-gradient-to: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-to: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .sm\:focus\:to-theme-bg-primary:focus {
@@ -35724,7 +35724,7 @@ html, body {
   }
 
   .sm\:text-theme-bg-default {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .sm\:text-theme-bg-header {
@@ -35740,7 +35740,7 @@ html, body {
   }
 
   .sm\:text-theme-bg-surfaceAlt {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .sm\:text-theme-bg-primary {
@@ -35800,7 +35800,7 @@ html, body {
   }
 
   .group:hover .sm\:group-hover\:text-theme-bg-default {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .group:hover .sm\:group-hover\:text-theme-bg-header {
@@ -35816,7 +35816,7 @@ html, body {
   }
 
   .group:hover .sm\:group-hover\:text-theme-bg-surfaceAlt {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .group:hover .sm\:group-hover\:text-theme-bg-primary {
@@ -35876,7 +35876,7 @@ html, body {
   }
 
   .sm\:focus-within\:text-theme-bg-default:focus-within {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .sm\:focus-within\:text-theme-bg-header:focus-within {
@@ -35892,7 +35892,7 @@ html, body {
   }
 
   .sm\:focus-within\:text-theme-bg-surfaceAlt:focus-within {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .sm\:focus-within\:text-theme-bg-primary:focus-within {
@@ -35952,7 +35952,7 @@ html, body {
   }
 
   .sm\:hover\:text-theme-bg-default:hover {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .sm\:hover\:text-theme-bg-header:hover {
@@ -35968,7 +35968,7 @@ html, body {
   }
 
   .sm\:hover\:text-theme-bg-surfaceAlt:hover {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .sm\:hover\:text-theme-bg-primary:hover {
@@ -36028,7 +36028,7 @@ html, body {
   }
 
   .sm\:focus\:text-theme-bg-default:focus {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .sm\:focus\:text-theme-bg-header:focus {
@@ -36044,7 +36044,7 @@ html, body {
   }
 
   .sm\:focus\:text-theme-bg-surfaceAlt:focus {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .sm\:focus\:text-theme-bg-primary:focus {
@@ -36474,15 +36474,15 @@ html, body {
   }
 
   .sm\:placeholder-theme-bg-default::-moz-placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .sm\:placeholder-theme-bg-default:-ms-input-placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .sm\:placeholder-theme-bg-default::placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .sm\:placeholder-theme-bg-header::-moz-placeholder {
@@ -36522,15 +36522,15 @@ html, body {
   }
 
   .sm\:placeholder-theme-bg-surfaceAlt::-moz-placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .sm\:placeholder-theme-bg-surfaceAlt:-ms-input-placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .sm\:placeholder-theme-bg-surfaceAlt::placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .sm\:placeholder-theme-bg-primary::-moz-placeholder {
@@ -36702,15 +36702,15 @@ html, body {
   }
 
   .sm\:focus\:placeholder-theme-bg-default:focus::-moz-placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .sm\:focus\:placeholder-theme-bg-default:focus:-ms-input-placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .sm\:focus\:placeholder-theme-bg-default:focus::placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .sm\:focus\:placeholder-theme-bg-header:focus::-moz-placeholder {
@@ -36750,15 +36750,15 @@ html, body {
   }
 
   .sm\:focus\:placeholder-theme-bg-surfaceAlt:focus::-moz-placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .sm\:focus\:placeholder-theme-bg-surfaceAlt:focus:-ms-input-placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .sm\:focus\:placeholder-theme-bg-surfaceAlt:focus::placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .sm\:focus\:placeholder-theme-bg-primary:focus::-moz-placeholder {
@@ -38083,7 +38083,7 @@ html, body {
   }
 
   .sm\:ring-theme-bg-default {
-    --tw-ring-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-color: var(--theme-bg-default, #ffffff);
   }
 
   .sm\:ring-theme-bg-header {
@@ -38099,7 +38099,7 @@ html, body {
   }
 
   .sm\:ring-theme-bg-surfaceAlt {
-    --tw-ring-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .sm\:ring-theme-bg-primary {
@@ -38159,7 +38159,7 @@ html, body {
   }
 
   .sm\:focus-within\:ring-theme-bg-default:focus-within {
-    --tw-ring-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-color: var(--theme-bg-default, #ffffff);
   }
 
   .sm\:focus-within\:ring-theme-bg-header:focus-within {
@@ -38175,7 +38175,7 @@ html, body {
   }
 
   .sm\:focus-within\:ring-theme-bg-surfaceAlt:focus-within {
-    --tw-ring-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .sm\:focus-within\:ring-theme-bg-primary:focus-within {
@@ -38235,7 +38235,7 @@ html, body {
   }
 
   .sm\:focus\:ring-theme-bg-default:focus {
-    --tw-ring-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-color: var(--theme-bg-default, #ffffff);
   }
 
   .sm\:focus\:ring-theme-bg-header:focus {
@@ -38251,7 +38251,7 @@ html, body {
   }
 
   .sm\:focus\:ring-theme-bg-surfaceAlt:focus {
-    --tw-ring-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .sm\:focus\:ring-theme-bg-primary:focus {
@@ -38551,7 +38551,7 @@ html, body {
   }
 
   .sm\:ring-offset-theme-bg-default {
-    --tw-ring-offset-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-offset-color: var(--theme-bg-default, #ffffff);
   }
 
   .sm\:ring-offset-theme-bg-header {
@@ -38567,7 +38567,7 @@ html, body {
   }
 
   .sm\:ring-offset-theme-bg-surfaceAlt {
-    --tw-ring-offset-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-offset-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .sm\:ring-offset-theme-bg-primary {
@@ -38627,7 +38627,7 @@ html, body {
   }
 
   .sm\:focus-within\:ring-offset-theme-bg-default:focus-within {
-    --tw-ring-offset-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-offset-color: var(--theme-bg-default, #ffffff);
   }
 
   .sm\:focus-within\:ring-offset-theme-bg-header:focus-within {
@@ -38643,7 +38643,7 @@ html, body {
   }
 
   .sm\:focus-within\:ring-offset-theme-bg-surfaceAlt:focus-within {
-    --tw-ring-offset-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-offset-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .sm\:focus-within\:ring-offset-theme-bg-primary:focus-within {
@@ -38703,7 +38703,7 @@ html, body {
   }
 
   .sm\:focus\:ring-offset-theme-bg-default:focus {
-    --tw-ring-offset-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-offset-color: var(--theme-bg-default, #ffffff);
   }
 
   .sm\:focus\:ring-offset-theme-bg-header:focus {
@@ -38719,7 +38719,7 @@ html, body {
   }
 
   .sm\:focus\:ring-offset-theme-bg-surfaceAlt:focus {
-    --tw-ring-offset-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-offset-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .sm\:focus\:ring-offset-theme-bg-primary:focus {
@@ -50571,7 +50571,7 @@ html, body {
   }
 
   .md\:divide-theme-bg-default > :not([hidden]) ~ :not([hidden]) {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .md\:divide-theme-bg-header > :not([hidden]) ~ :not([hidden]) {
@@ -50587,7 +50587,7 @@ html, body {
   }
 
   .md\:divide-theme-bg-surfaceAlt > :not([hidden]) ~ :not([hidden]) {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .md\:divide-theme-bg-primary > :not([hidden]) ~ :not([hidden]) {
@@ -51385,7 +51385,7 @@ html, body {
   }
 
   .md\:border-theme-bg-default {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .md\:border-theme-bg-header {
@@ -51401,7 +51401,7 @@ html, body {
   }
 
   .md\:border-theme-bg-surfaceAlt {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .md\:border-theme-bg-primary {
@@ -51461,7 +51461,7 @@ html, body {
   }
 
   .group:hover .md\:group-hover\:border-theme-bg-default {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .group:hover .md\:group-hover\:border-theme-bg-header {
@@ -51477,7 +51477,7 @@ html, body {
   }
 
   .group:hover .md\:group-hover\:border-theme-bg-surfaceAlt {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .group:hover .md\:group-hover\:border-theme-bg-primary {
@@ -51537,7 +51537,7 @@ html, body {
   }
 
   .md\:focus-within\:border-theme-bg-default:focus-within {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .md\:focus-within\:border-theme-bg-header:focus-within {
@@ -51553,7 +51553,7 @@ html, body {
   }
 
   .md\:focus-within\:border-theme-bg-surfaceAlt:focus-within {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .md\:focus-within\:border-theme-bg-primary:focus-within {
@@ -51613,7 +51613,7 @@ html, body {
   }
 
   .md\:hover\:border-theme-bg-default:hover {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .md\:hover\:border-theme-bg-header:hover {
@@ -51629,7 +51629,7 @@ html, body {
   }
 
   .md\:hover\:border-theme-bg-surfaceAlt:hover {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .md\:hover\:border-theme-bg-primary:hover {
@@ -51689,7 +51689,7 @@ html, body {
   }
 
   .md\:focus\:border-theme-bg-default:focus {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .md\:focus\:border-theme-bg-header:focus {
@@ -51705,7 +51705,7 @@ html, body {
   }
 
   .md\:focus\:border-theme-bg-surfaceAlt:focus {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .md\:focus\:border-theme-bg-primary:focus {
@@ -52065,7 +52065,7 @@ html, body {
   }
 
   .md\:bg-theme-bg-default {
-    background-color: var(--theme-bg-default, #f9f9fa);
+    background-color: var(--theme-bg-default, #ffffff);
   }
 
   .md\:bg-theme-bg-header {
@@ -52081,7 +52081,7 @@ html, body {
   }
 
   .md\:bg-theme-bg-surfaceAlt {
-    background-color: var(--theme-bg-surface-alt, #eeeeee);
+    background-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .md\:bg-theme-bg-primary {
@@ -52141,7 +52141,7 @@ html, body {
   }
 
   .group:hover .md\:group-hover\:bg-theme-bg-default {
-    background-color: var(--theme-bg-default, #f9f9fa);
+    background-color: var(--theme-bg-default, #ffffff);
   }
 
   .group:hover .md\:group-hover\:bg-theme-bg-header {
@@ -52157,7 +52157,7 @@ html, body {
   }
 
   .group:hover .md\:group-hover\:bg-theme-bg-surfaceAlt {
-    background-color: var(--theme-bg-surface-alt, #eeeeee);
+    background-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .group:hover .md\:group-hover\:bg-theme-bg-primary {
@@ -52217,7 +52217,7 @@ html, body {
   }
 
   .md\:focus-within\:bg-theme-bg-default:focus-within {
-    background-color: var(--theme-bg-default, #f9f9fa);
+    background-color: var(--theme-bg-default, #ffffff);
   }
 
   .md\:focus-within\:bg-theme-bg-header:focus-within {
@@ -52233,7 +52233,7 @@ html, body {
   }
 
   .md\:focus-within\:bg-theme-bg-surfaceAlt:focus-within {
-    background-color: var(--theme-bg-surface-alt, #eeeeee);
+    background-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .md\:focus-within\:bg-theme-bg-primary:focus-within {
@@ -52293,7 +52293,7 @@ html, body {
   }
 
   .md\:hover\:bg-theme-bg-default:hover {
-    background-color: var(--theme-bg-default, #f9f9fa);
+    background-color: var(--theme-bg-default, #ffffff);
   }
 
   .md\:hover\:bg-theme-bg-header:hover {
@@ -52309,7 +52309,7 @@ html, body {
   }
 
   .md\:hover\:bg-theme-bg-surfaceAlt:hover {
-    background-color: var(--theme-bg-surface-alt, #eeeeee);
+    background-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .md\:hover\:bg-theme-bg-primary:hover {
@@ -52369,7 +52369,7 @@ html, body {
   }
 
   .md\:focus\:bg-theme-bg-default:focus {
-    background-color: var(--theme-bg-default, #f9f9fa);
+    background-color: var(--theme-bg-default, #ffffff);
   }
 
   .md\:focus\:bg-theme-bg-header:focus {
@@ -52385,7 +52385,7 @@ html, body {
   }
 
   .md\:focus\:bg-theme-bg-surfaceAlt:focus {
-    background-color: var(--theme-bg-surface-alt, #eeeeee);
+    background-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .md\:focus\:bg-theme-bg-primary:focus {
@@ -52781,7 +52781,7 @@ html, body {
   }
 
   .md\:from-theme-bg-default {
-    --tw-gradient-from: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-from: var(--theme-bg-default, #ffffff);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -52801,7 +52801,7 @@ html, body {
   }
 
   .md\:from-theme-bg-surfaceAlt {
-    --tw-gradient-from: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-from: var(--theme-bg-surface-alt, #f9f9fa);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -52876,7 +52876,7 @@ html, body {
   }
 
   .md\:hover\:from-theme-bg-default:hover {
-    --tw-gradient-from: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-from: var(--theme-bg-default, #ffffff);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -52896,7 +52896,7 @@ html, body {
   }
 
   .md\:hover\:from-theme-bg-surfaceAlt:hover {
-    --tw-gradient-from: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-from: var(--theme-bg-surface-alt, #f9f9fa);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -52971,7 +52971,7 @@ html, body {
   }
 
   .md\:focus\:from-theme-bg-default:focus {
-    --tw-gradient-from: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-from: var(--theme-bg-default, #ffffff);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -52991,7 +52991,7 @@ html, body {
   }
 
   .md\:focus\:from-theme-bg-surfaceAlt:focus {
-    --tw-gradient-from: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-from: var(--theme-bg-surface-alt, #f9f9fa);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -53066,7 +53066,7 @@ html, body {
   }
 
   .md\:via-theme-bg-default {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #ffffff), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .md\:via-theme-bg-header {
@@ -53082,7 +53082,7 @@ html, body {
   }
 
   .md\:via-theme-bg-surfaceAlt {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #eeeeee), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .md\:via-theme-bg-primary {
@@ -53142,7 +53142,7 @@ html, body {
   }
 
   .md\:hover\:via-theme-bg-default:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #ffffff), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .md\:hover\:via-theme-bg-header:hover {
@@ -53158,7 +53158,7 @@ html, body {
   }
 
   .md\:hover\:via-theme-bg-surfaceAlt:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #eeeeee), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .md\:hover\:via-theme-bg-primary:hover {
@@ -53218,7 +53218,7 @@ html, body {
   }
 
   .md\:focus\:via-theme-bg-default:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #ffffff), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .md\:focus\:via-theme-bg-header:focus {
@@ -53234,7 +53234,7 @@ html, body {
   }
 
   .md\:focus\:via-theme-bg-surfaceAlt:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #eeeeee), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .md\:focus\:via-theme-bg-primary:focus {
@@ -53294,7 +53294,7 @@ html, body {
   }
 
   .md\:to-theme-bg-default {
-    --tw-gradient-to: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-to: var(--theme-bg-default, #ffffff);
   }
 
   .md\:to-theme-bg-header {
@@ -53310,7 +53310,7 @@ html, body {
   }
 
   .md\:to-theme-bg-surfaceAlt {
-    --tw-gradient-to: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-to: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .md\:to-theme-bg-primary {
@@ -53370,7 +53370,7 @@ html, body {
   }
 
   .md\:hover\:to-theme-bg-default:hover {
-    --tw-gradient-to: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-to: var(--theme-bg-default, #ffffff);
   }
 
   .md\:hover\:to-theme-bg-header:hover {
@@ -53386,7 +53386,7 @@ html, body {
   }
 
   .md\:hover\:to-theme-bg-surfaceAlt:hover {
-    --tw-gradient-to: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-to: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .md\:hover\:to-theme-bg-primary:hover {
@@ -53446,7 +53446,7 @@ html, body {
   }
 
   .md\:focus\:to-theme-bg-default:focus {
-    --tw-gradient-to: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-to: var(--theme-bg-default, #ffffff);
   }
 
   .md\:focus\:to-theme-bg-header:focus {
@@ -53462,7 +53462,7 @@ html, body {
   }
 
   .md\:focus\:to-theme-bg-surfaceAlt:focus {
-    --tw-gradient-to: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-to: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .md\:focus\:to-theme-bg-primary:focus {
@@ -55087,7 +55087,7 @@ html, body {
   }
 
   .md\:text-theme-bg-default {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .md\:text-theme-bg-header {
@@ -55103,7 +55103,7 @@ html, body {
   }
 
   .md\:text-theme-bg-surfaceAlt {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .md\:text-theme-bg-primary {
@@ -55163,7 +55163,7 @@ html, body {
   }
 
   .group:hover .md\:group-hover\:text-theme-bg-default {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .group:hover .md\:group-hover\:text-theme-bg-header {
@@ -55179,7 +55179,7 @@ html, body {
   }
 
   .group:hover .md\:group-hover\:text-theme-bg-surfaceAlt {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .group:hover .md\:group-hover\:text-theme-bg-primary {
@@ -55239,7 +55239,7 @@ html, body {
   }
 
   .md\:focus-within\:text-theme-bg-default:focus-within {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .md\:focus-within\:text-theme-bg-header:focus-within {
@@ -55255,7 +55255,7 @@ html, body {
   }
 
   .md\:focus-within\:text-theme-bg-surfaceAlt:focus-within {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .md\:focus-within\:text-theme-bg-primary:focus-within {
@@ -55315,7 +55315,7 @@ html, body {
   }
 
   .md\:hover\:text-theme-bg-default:hover {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .md\:hover\:text-theme-bg-header:hover {
@@ -55331,7 +55331,7 @@ html, body {
   }
 
   .md\:hover\:text-theme-bg-surfaceAlt:hover {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .md\:hover\:text-theme-bg-primary:hover {
@@ -55391,7 +55391,7 @@ html, body {
   }
 
   .md\:focus\:text-theme-bg-default:focus {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .md\:focus\:text-theme-bg-header:focus {
@@ -55407,7 +55407,7 @@ html, body {
   }
 
   .md\:focus\:text-theme-bg-surfaceAlt:focus {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .md\:focus\:text-theme-bg-primary:focus {
@@ -55837,15 +55837,15 @@ html, body {
   }
 
   .md\:placeholder-theme-bg-default::-moz-placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .md\:placeholder-theme-bg-default:-ms-input-placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .md\:placeholder-theme-bg-default::placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .md\:placeholder-theme-bg-header::-moz-placeholder {
@@ -55885,15 +55885,15 @@ html, body {
   }
 
   .md\:placeholder-theme-bg-surfaceAlt::-moz-placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .md\:placeholder-theme-bg-surfaceAlt:-ms-input-placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .md\:placeholder-theme-bg-surfaceAlt::placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .md\:placeholder-theme-bg-primary::-moz-placeholder {
@@ -56065,15 +56065,15 @@ html, body {
   }
 
   .md\:focus\:placeholder-theme-bg-default:focus::-moz-placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .md\:focus\:placeholder-theme-bg-default:focus:-ms-input-placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .md\:focus\:placeholder-theme-bg-default:focus::placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .md\:focus\:placeholder-theme-bg-header:focus::-moz-placeholder {
@@ -56113,15 +56113,15 @@ html, body {
   }
 
   .md\:focus\:placeholder-theme-bg-surfaceAlt:focus::-moz-placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .md\:focus\:placeholder-theme-bg-surfaceAlt:focus:-ms-input-placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .md\:focus\:placeholder-theme-bg-surfaceAlt:focus::placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .md\:focus\:placeholder-theme-bg-primary:focus::-moz-placeholder {
@@ -57446,7 +57446,7 @@ html, body {
   }
 
   .md\:ring-theme-bg-default {
-    --tw-ring-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-color: var(--theme-bg-default, #ffffff);
   }
 
   .md\:ring-theme-bg-header {
@@ -57462,7 +57462,7 @@ html, body {
   }
 
   .md\:ring-theme-bg-surfaceAlt {
-    --tw-ring-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .md\:ring-theme-bg-primary {
@@ -57522,7 +57522,7 @@ html, body {
   }
 
   .md\:focus-within\:ring-theme-bg-default:focus-within {
-    --tw-ring-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-color: var(--theme-bg-default, #ffffff);
   }
 
   .md\:focus-within\:ring-theme-bg-header:focus-within {
@@ -57538,7 +57538,7 @@ html, body {
   }
 
   .md\:focus-within\:ring-theme-bg-surfaceAlt:focus-within {
-    --tw-ring-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .md\:focus-within\:ring-theme-bg-primary:focus-within {
@@ -57598,7 +57598,7 @@ html, body {
   }
 
   .md\:focus\:ring-theme-bg-default:focus {
-    --tw-ring-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-color: var(--theme-bg-default, #ffffff);
   }
 
   .md\:focus\:ring-theme-bg-header:focus {
@@ -57614,7 +57614,7 @@ html, body {
   }
 
   .md\:focus\:ring-theme-bg-surfaceAlt:focus {
-    --tw-ring-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .md\:focus\:ring-theme-bg-primary:focus {
@@ -57914,7 +57914,7 @@ html, body {
   }
 
   .md\:ring-offset-theme-bg-default {
-    --tw-ring-offset-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-offset-color: var(--theme-bg-default, #ffffff);
   }
 
   .md\:ring-offset-theme-bg-header {
@@ -57930,7 +57930,7 @@ html, body {
   }
 
   .md\:ring-offset-theme-bg-surfaceAlt {
-    --tw-ring-offset-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-offset-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .md\:ring-offset-theme-bg-primary {
@@ -57990,7 +57990,7 @@ html, body {
   }
 
   .md\:focus-within\:ring-offset-theme-bg-default:focus-within {
-    --tw-ring-offset-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-offset-color: var(--theme-bg-default, #ffffff);
   }
 
   .md\:focus-within\:ring-offset-theme-bg-header:focus-within {
@@ -58006,7 +58006,7 @@ html, body {
   }
 
   .md\:focus-within\:ring-offset-theme-bg-surfaceAlt:focus-within {
-    --tw-ring-offset-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-offset-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .md\:focus-within\:ring-offset-theme-bg-primary:focus-within {
@@ -58066,7 +58066,7 @@ html, body {
   }
 
   .md\:focus\:ring-offset-theme-bg-default:focus {
-    --tw-ring-offset-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-offset-color: var(--theme-bg-default, #ffffff);
   }
 
   .md\:focus\:ring-offset-theme-bg-header:focus {
@@ -58082,7 +58082,7 @@ html, body {
   }
 
   .md\:focus\:ring-offset-theme-bg-surfaceAlt:focus {
-    --tw-ring-offset-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-offset-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .md\:focus\:ring-offset-theme-bg-primary:focus {
@@ -69934,7 +69934,7 @@ html, body {
   }
 
   .lg\:divide-theme-bg-default > :not([hidden]) ~ :not([hidden]) {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .lg\:divide-theme-bg-header > :not([hidden]) ~ :not([hidden]) {
@@ -69950,7 +69950,7 @@ html, body {
   }
 
   .lg\:divide-theme-bg-surfaceAlt > :not([hidden]) ~ :not([hidden]) {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .lg\:divide-theme-bg-primary > :not([hidden]) ~ :not([hidden]) {
@@ -70748,7 +70748,7 @@ html, body {
   }
 
   .lg\:border-theme-bg-default {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .lg\:border-theme-bg-header {
@@ -70764,7 +70764,7 @@ html, body {
   }
 
   .lg\:border-theme-bg-surfaceAlt {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .lg\:border-theme-bg-primary {
@@ -70824,7 +70824,7 @@ html, body {
   }
 
   .group:hover .lg\:group-hover\:border-theme-bg-default {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .group:hover .lg\:group-hover\:border-theme-bg-header {
@@ -70840,7 +70840,7 @@ html, body {
   }
 
   .group:hover .lg\:group-hover\:border-theme-bg-surfaceAlt {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .group:hover .lg\:group-hover\:border-theme-bg-primary {
@@ -70900,7 +70900,7 @@ html, body {
   }
 
   .lg\:focus-within\:border-theme-bg-default:focus-within {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .lg\:focus-within\:border-theme-bg-header:focus-within {
@@ -70916,7 +70916,7 @@ html, body {
   }
 
   .lg\:focus-within\:border-theme-bg-surfaceAlt:focus-within {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .lg\:focus-within\:border-theme-bg-primary:focus-within {
@@ -70976,7 +70976,7 @@ html, body {
   }
 
   .lg\:hover\:border-theme-bg-default:hover {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .lg\:hover\:border-theme-bg-header:hover {
@@ -70992,7 +70992,7 @@ html, body {
   }
 
   .lg\:hover\:border-theme-bg-surfaceAlt:hover {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .lg\:hover\:border-theme-bg-primary:hover {
@@ -71052,7 +71052,7 @@ html, body {
   }
 
   .lg\:focus\:border-theme-bg-default:focus {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .lg\:focus\:border-theme-bg-header:focus {
@@ -71068,7 +71068,7 @@ html, body {
   }
 
   .lg\:focus\:border-theme-bg-surfaceAlt:focus {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .lg\:focus\:border-theme-bg-primary:focus {
@@ -71428,7 +71428,7 @@ html, body {
   }
 
   .lg\:bg-theme-bg-default {
-    background-color: var(--theme-bg-default, #f9f9fa);
+    background-color: var(--theme-bg-default, #ffffff);
   }
 
   .lg\:bg-theme-bg-header {
@@ -71444,7 +71444,7 @@ html, body {
   }
 
   .lg\:bg-theme-bg-surfaceAlt {
-    background-color: var(--theme-bg-surface-alt, #eeeeee);
+    background-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .lg\:bg-theme-bg-primary {
@@ -71504,7 +71504,7 @@ html, body {
   }
 
   .group:hover .lg\:group-hover\:bg-theme-bg-default {
-    background-color: var(--theme-bg-default, #f9f9fa);
+    background-color: var(--theme-bg-default, #ffffff);
   }
 
   .group:hover .lg\:group-hover\:bg-theme-bg-header {
@@ -71520,7 +71520,7 @@ html, body {
   }
 
   .group:hover .lg\:group-hover\:bg-theme-bg-surfaceAlt {
-    background-color: var(--theme-bg-surface-alt, #eeeeee);
+    background-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .group:hover .lg\:group-hover\:bg-theme-bg-primary {
@@ -71580,7 +71580,7 @@ html, body {
   }
 
   .lg\:focus-within\:bg-theme-bg-default:focus-within {
-    background-color: var(--theme-bg-default, #f9f9fa);
+    background-color: var(--theme-bg-default, #ffffff);
   }
 
   .lg\:focus-within\:bg-theme-bg-header:focus-within {
@@ -71596,7 +71596,7 @@ html, body {
   }
 
   .lg\:focus-within\:bg-theme-bg-surfaceAlt:focus-within {
-    background-color: var(--theme-bg-surface-alt, #eeeeee);
+    background-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .lg\:focus-within\:bg-theme-bg-primary:focus-within {
@@ -71656,7 +71656,7 @@ html, body {
   }
 
   .lg\:hover\:bg-theme-bg-default:hover {
-    background-color: var(--theme-bg-default, #f9f9fa);
+    background-color: var(--theme-bg-default, #ffffff);
   }
 
   .lg\:hover\:bg-theme-bg-header:hover {
@@ -71672,7 +71672,7 @@ html, body {
   }
 
   .lg\:hover\:bg-theme-bg-surfaceAlt:hover {
-    background-color: var(--theme-bg-surface-alt, #eeeeee);
+    background-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .lg\:hover\:bg-theme-bg-primary:hover {
@@ -71732,7 +71732,7 @@ html, body {
   }
 
   .lg\:focus\:bg-theme-bg-default:focus {
-    background-color: var(--theme-bg-default, #f9f9fa);
+    background-color: var(--theme-bg-default, #ffffff);
   }
 
   .lg\:focus\:bg-theme-bg-header:focus {
@@ -71748,7 +71748,7 @@ html, body {
   }
 
   .lg\:focus\:bg-theme-bg-surfaceAlt:focus {
-    background-color: var(--theme-bg-surface-alt, #eeeeee);
+    background-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .lg\:focus\:bg-theme-bg-primary:focus {
@@ -72144,7 +72144,7 @@ html, body {
   }
 
   .lg\:from-theme-bg-default {
-    --tw-gradient-from: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-from: var(--theme-bg-default, #ffffff);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -72164,7 +72164,7 @@ html, body {
   }
 
   .lg\:from-theme-bg-surfaceAlt {
-    --tw-gradient-from: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-from: var(--theme-bg-surface-alt, #f9f9fa);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -72239,7 +72239,7 @@ html, body {
   }
 
   .lg\:hover\:from-theme-bg-default:hover {
-    --tw-gradient-from: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-from: var(--theme-bg-default, #ffffff);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -72259,7 +72259,7 @@ html, body {
   }
 
   .lg\:hover\:from-theme-bg-surfaceAlt:hover {
-    --tw-gradient-from: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-from: var(--theme-bg-surface-alt, #f9f9fa);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -72334,7 +72334,7 @@ html, body {
   }
 
   .lg\:focus\:from-theme-bg-default:focus {
-    --tw-gradient-from: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-from: var(--theme-bg-default, #ffffff);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -72354,7 +72354,7 @@ html, body {
   }
 
   .lg\:focus\:from-theme-bg-surfaceAlt:focus {
-    --tw-gradient-from: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-from: var(--theme-bg-surface-alt, #f9f9fa);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -72429,7 +72429,7 @@ html, body {
   }
 
   .lg\:via-theme-bg-default {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #ffffff), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .lg\:via-theme-bg-header {
@@ -72445,7 +72445,7 @@ html, body {
   }
 
   .lg\:via-theme-bg-surfaceAlt {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #eeeeee), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .lg\:via-theme-bg-primary {
@@ -72505,7 +72505,7 @@ html, body {
   }
 
   .lg\:hover\:via-theme-bg-default:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #ffffff), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .lg\:hover\:via-theme-bg-header:hover {
@@ -72521,7 +72521,7 @@ html, body {
   }
 
   .lg\:hover\:via-theme-bg-surfaceAlt:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #eeeeee), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .lg\:hover\:via-theme-bg-primary:hover {
@@ -72581,7 +72581,7 @@ html, body {
   }
 
   .lg\:focus\:via-theme-bg-default:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #ffffff), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .lg\:focus\:via-theme-bg-header:focus {
@@ -72597,7 +72597,7 @@ html, body {
   }
 
   .lg\:focus\:via-theme-bg-surfaceAlt:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #eeeeee), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .lg\:focus\:via-theme-bg-primary:focus {
@@ -72657,7 +72657,7 @@ html, body {
   }
 
   .lg\:to-theme-bg-default {
-    --tw-gradient-to: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-to: var(--theme-bg-default, #ffffff);
   }
 
   .lg\:to-theme-bg-header {
@@ -72673,7 +72673,7 @@ html, body {
   }
 
   .lg\:to-theme-bg-surfaceAlt {
-    --tw-gradient-to: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-to: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .lg\:to-theme-bg-primary {
@@ -72733,7 +72733,7 @@ html, body {
   }
 
   .lg\:hover\:to-theme-bg-default:hover {
-    --tw-gradient-to: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-to: var(--theme-bg-default, #ffffff);
   }
 
   .lg\:hover\:to-theme-bg-header:hover {
@@ -72749,7 +72749,7 @@ html, body {
   }
 
   .lg\:hover\:to-theme-bg-surfaceAlt:hover {
-    --tw-gradient-to: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-to: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .lg\:hover\:to-theme-bg-primary:hover {
@@ -72809,7 +72809,7 @@ html, body {
   }
 
   .lg\:focus\:to-theme-bg-default:focus {
-    --tw-gradient-to: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-to: var(--theme-bg-default, #ffffff);
   }
 
   .lg\:focus\:to-theme-bg-header:focus {
@@ -72825,7 +72825,7 @@ html, body {
   }
 
   .lg\:focus\:to-theme-bg-surfaceAlt:focus {
-    --tw-gradient-to: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-to: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .lg\:focus\:to-theme-bg-primary:focus {
@@ -74450,7 +74450,7 @@ html, body {
   }
 
   .lg\:text-theme-bg-default {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .lg\:text-theme-bg-header {
@@ -74466,7 +74466,7 @@ html, body {
   }
 
   .lg\:text-theme-bg-surfaceAlt {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .lg\:text-theme-bg-primary {
@@ -74526,7 +74526,7 @@ html, body {
   }
 
   .group:hover .lg\:group-hover\:text-theme-bg-default {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .group:hover .lg\:group-hover\:text-theme-bg-header {
@@ -74542,7 +74542,7 @@ html, body {
   }
 
   .group:hover .lg\:group-hover\:text-theme-bg-surfaceAlt {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .group:hover .lg\:group-hover\:text-theme-bg-primary {
@@ -74602,7 +74602,7 @@ html, body {
   }
 
   .lg\:focus-within\:text-theme-bg-default:focus-within {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .lg\:focus-within\:text-theme-bg-header:focus-within {
@@ -74618,7 +74618,7 @@ html, body {
   }
 
   .lg\:focus-within\:text-theme-bg-surfaceAlt:focus-within {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .lg\:focus-within\:text-theme-bg-primary:focus-within {
@@ -74678,7 +74678,7 @@ html, body {
   }
 
   .lg\:hover\:text-theme-bg-default:hover {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .lg\:hover\:text-theme-bg-header:hover {
@@ -74694,7 +74694,7 @@ html, body {
   }
 
   .lg\:hover\:text-theme-bg-surfaceAlt:hover {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .lg\:hover\:text-theme-bg-primary:hover {
@@ -74754,7 +74754,7 @@ html, body {
   }
 
   .lg\:focus\:text-theme-bg-default:focus {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .lg\:focus\:text-theme-bg-header:focus {
@@ -74770,7 +74770,7 @@ html, body {
   }
 
   .lg\:focus\:text-theme-bg-surfaceAlt:focus {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .lg\:focus\:text-theme-bg-primary:focus {
@@ -75200,15 +75200,15 @@ html, body {
   }
 
   .lg\:placeholder-theme-bg-default::-moz-placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .lg\:placeholder-theme-bg-default:-ms-input-placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .lg\:placeholder-theme-bg-default::placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .lg\:placeholder-theme-bg-header::-moz-placeholder {
@@ -75248,15 +75248,15 @@ html, body {
   }
 
   .lg\:placeholder-theme-bg-surfaceAlt::-moz-placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .lg\:placeholder-theme-bg-surfaceAlt:-ms-input-placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .lg\:placeholder-theme-bg-surfaceAlt::placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .lg\:placeholder-theme-bg-primary::-moz-placeholder {
@@ -75428,15 +75428,15 @@ html, body {
   }
 
   .lg\:focus\:placeholder-theme-bg-default:focus::-moz-placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .lg\:focus\:placeholder-theme-bg-default:focus:-ms-input-placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .lg\:focus\:placeholder-theme-bg-default:focus::placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .lg\:focus\:placeholder-theme-bg-header:focus::-moz-placeholder {
@@ -75476,15 +75476,15 @@ html, body {
   }
 
   .lg\:focus\:placeholder-theme-bg-surfaceAlt:focus::-moz-placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .lg\:focus\:placeholder-theme-bg-surfaceAlt:focus:-ms-input-placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .lg\:focus\:placeholder-theme-bg-surfaceAlt:focus::placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .lg\:focus\:placeholder-theme-bg-primary:focus::-moz-placeholder {
@@ -76809,7 +76809,7 @@ html, body {
   }
 
   .lg\:ring-theme-bg-default {
-    --tw-ring-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-color: var(--theme-bg-default, #ffffff);
   }
 
   .lg\:ring-theme-bg-header {
@@ -76825,7 +76825,7 @@ html, body {
   }
 
   .lg\:ring-theme-bg-surfaceAlt {
-    --tw-ring-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .lg\:ring-theme-bg-primary {
@@ -76885,7 +76885,7 @@ html, body {
   }
 
   .lg\:focus-within\:ring-theme-bg-default:focus-within {
-    --tw-ring-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-color: var(--theme-bg-default, #ffffff);
   }
 
   .lg\:focus-within\:ring-theme-bg-header:focus-within {
@@ -76901,7 +76901,7 @@ html, body {
   }
 
   .lg\:focus-within\:ring-theme-bg-surfaceAlt:focus-within {
-    --tw-ring-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .lg\:focus-within\:ring-theme-bg-primary:focus-within {
@@ -76961,7 +76961,7 @@ html, body {
   }
 
   .lg\:focus\:ring-theme-bg-default:focus {
-    --tw-ring-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-color: var(--theme-bg-default, #ffffff);
   }
 
   .lg\:focus\:ring-theme-bg-header:focus {
@@ -76977,7 +76977,7 @@ html, body {
   }
 
   .lg\:focus\:ring-theme-bg-surfaceAlt:focus {
-    --tw-ring-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .lg\:focus\:ring-theme-bg-primary:focus {
@@ -77277,7 +77277,7 @@ html, body {
   }
 
   .lg\:ring-offset-theme-bg-default {
-    --tw-ring-offset-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-offset-color: var(--theme-bg-default, #ffffff);
   }
 
   .lg\:ring-offset-theme-bg-header {
@@ -77293,7 +77293,7 @@ html, body {
   }
 
   .lg\:ring-offset-theme-bg-surfaceAlt {
-    --tw-ring-offset-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-offset-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .lg\:ring-offset-theme-bg-primary {
@@ -77353,7 +77353,7 @@ html, body {
   }
 
   .lg\:focus-within\:ring-offset-theme-bg-default:focus-within {
-    --tw-ring-offset-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-offset-color: var(--theme-bg-default, #ffffff);
   }
 
   .lg\:focus-within\:ring-offset-theme-bg-header:focus-within {
@@ -77369,7 +77369,7 @@ html, body {
   }
 
   .lg\:focus-within\:ring-offset-theme-bg-surfaceAlt:focus-within {
-    --tw-ring-offset-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-offset-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .lg\:focus-within\:ring-offset-theme-bg-primary:focus-within {
@@ -77429,7 +77429,7 @@ html, body {
   }
 
   .lg\:focus\:ring-offset-theme-bg-default:focus {
-    --tw-ring-offset-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-offset-color: var(--theme-bg-default, #ffffff);
   }
 
   .lg\:focus\:ring-offset-theme-bg-header:focus {
@@ -77445,7 +77445,7 @@ html, body {
   }
 
   .lg\:focus\:ring-offset-theme-bg-surfaceAlt:focus {
-    --tw-ring-offset-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-offset-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .lg\:focus\:ring-offset-theme-bg-primary:focus {
@@ -89297,7 +89297,7 @@ html, body {
   }
 
   .xl\:divide-theme-bg-default > :not([hidden]) ~ :not([hidden]) {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .xl\:divide-theme-bg-header > :not([hidden]) ~ :not([hidden]) {
@@ -89313,7 +89313,7 @@ html, body {
   }
 
   .xl\:divide-theme-bg-surfaceAlt > :not([hidden]) ~ :not([hidden]) {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .xl\:divide-theme-bg-primary > :not([hidden]) ~ :not([hidden]) {
@@ -90111,7 +90111,7 @@ html, body {
   }
 
   .xl\:border-theme-bg-default {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .xl\:border-theme-bg-header {
@@ -90127,7 +90127,7 @@ html, body {
   }
 
   .xl\:border-theme-bg-surfaceAlt {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .xl\:border-theme-bg-primary {
@@ -90187,7 +90187,7 @@ html, body {
   }
 
   .group:hover .xl\:group-hover\:border-theme-bg-default {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .group:hover .xl\:group-hover\:border-theme-bg-header {
@@ -90203,7 +90203,7 @@ html, body {
   }
 
   .group:hover .xl\:group-hover\:border-theme-bg-surfaceAlt {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .group:hover .xl\:group-hover\:border-theme-bg-primary {
@@ -90263,7 +90263,7 @@ html, body {
   }
 
   .xl\:focus-within\:border-theme-bg-default:focus-within {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .xl\:focus-within\:border-theme-bg-header:focus-within {
@@ -90279,7 +90279,7 @@ html, body {
   }
 
   .xl\:focus-within\:border-theme-bg-surfaceAlt:focus-within {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .xl\:focus-within\:border-theme-bg-primary:focus-within {
@@ -90339,7 +90339,7 @@ html, body {
   }
 
   .xl\:hover\:border-theme-bg-default:hover {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .xl\:hover\:border-theme-bg-header:hover {
@@ -90355,7 +90355,7 @@ html, body {
   }
 
   .xl\:hover\:border-theme-bg-surfaceAlt:hover {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .xl\:hover\:border-theme-bg-primary:hover {
@@ -90415,7 +90415,7 @@ html, body {
   }
 
   .xl\:focus\:border-theme-bg-default:focus {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .xl\:focus\:border-theme-bg-header:focus {
@@ -90431,7 +90431,7 @@ html, body {
   }
 
   .xl\:focus\:border-theme-bg-surfaceAlt:focus {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .xl\:focus\:border-theme-bg-primary:focus {
@@ -90791,7 +90791,7 @@ html, body {
   }
 
   .xl\:bg-theme-bg-default {
-    background-color: var(--theme-bg-default, #f9f9fa);
+    background-color: var(--theme-bg-default, #ffffff);
   }
 
   .xl\:bg-theme-bg-header {
@@ -90807,7 +90807,7 @@ html, body {
   }
 
   .xl\:bg-theme-bg-surfaceAlt {
-    background-color: var(--theme-bg-surface-alt, #eeeeee);
+    background-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .xl\:bg-theme-bg-primary {
@@ -90867,7 +90867,7 @@ html, body {
   }
 
   .group:hover .xl\:group-hover\:bg-theme-bg-default {
-    background-color: var(--theme-bg-default, #f9f9fa);
+    background-color: var(--theme-bg-default, #ffffff);
   }
 
   .group:hover .xl\:group-hover\:bg-theme-bg-header {
@@ -90883,7 +90883,7 @@ html, body {
   }
 
   .group:hover .xl\:group-hover\:bg-theme-bg-surfaceAlt {
-    background-color: var(--theme-bg-surface-alt, #eeeeee);
+    background-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .group:hover .xl\:group-hover\:bg-theme-bg-primary {
@@ -90943,7 +90943,7 @@ html, body {
   }
 
   .xl\:focus-within\:bg-theme-bg-default:focus-within {
-    background-color: var(--theme-bg-default, #f9f9fa);
+    background-color: var(--theme-bg-default, #ffffff);
   }
 
   .xl\:focus-within\:bg-theme-bg-header:focus-within {
@@ -90959,7 +90959,7 @@ html, body {
   }
 
   .xl\:focus-within\:bg-theme-bg-surfaceAlt:focus-within {
-    background-color: var(--theme-bg-surface-alt, #eeeeee);
+    background-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .xl\:focus-within\:bg-theme-bg-primary:focus-within {
@@ -91019,7 +91019,7 @@ html, body {
   }
 
   .xl\:hover\:bg-theme-bg-default:hover {
-    background-color: var(--theme-bg-default, #f9f9fa);
+    background-color: var(--theme-bg-default, #ffffff);
   }
 
   .xl\:hover\:bg-theme-bg-header:hover {
@@ -91035,7 +91035,7 @@ html, body {
   }
 
   .xl\:hover\:bg-theme-bg-surfaceAlt:hover {
-    background-color: var(--theme-bg-surface-alt, #eeeeee);
+    background-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .xl\:hover\:bg-theme-bg-primary:hover {
@@ -91095,7 +91095,7 @@ html, body {
   }
 
   .xl\:focus\:bg-theme-bg-default:focus {
-    background-color: var(--theme-bg-default, #f9f9fa);
+    background-color: var(--theme-bg-default, #ffffff);
   }
 
   .xl\:focus\:bg-theme-bg-header:focus {
@@ -91111,7 +91111,7 @@ html, body {
   }
 
   .xl\:focus\:bg-theme-bg-surfaceAlt:focus {
-    background-color: var(--theme-bg-surface-alt, #eeeeee);
+    background-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .xl\:focus\:bg-theme-bg-primary:focus {
@@ -91507,7 +91507,7 @@ html, body {
   }
 
   .xl\:from-theme-bg-default {
-    --tw-gradient-from: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-from: var(--theme-bg-default, #ffffff);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -91527,7 +91527,7 @@ html, body {
   }
 
   .xl\:from-theme-bg-surfaceAlt {
-    --tw-gradient-from: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-from: var(--theme-bg-surface-alt, #f9f9fa);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -91602,7 +91602,7 @@ html, body {
   }
 
   .xl\:hover\:from-theme-bg-default:hover {
-    --tw-gradient-from: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-from: var(--theme-bg-default, #ffffff);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -91622,7 +91622,7 @@ html, body {
   }
 
   .xl\:hover\:from-theme-bg-surfaceAlt:hover {
-    --tw-gradient-from: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-from: var(--theme-bg-surface-alt, #f9f9fa);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -91697,7 +91697,7 @@ html, body {
   }
 
   .xl\:focus\:from-theme-bg-default:focus {
-    --tw-gradient-from: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-from: var(--theme-bg-default, #ffffff);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -91717,7 +91717,7 @@ html, body {
   }
 
   .xl\:focus\:from-theme-bg-surfaceAlt:focus {
-    --tw-gradient-from: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-from: var(--theme-bg-surface-alt, #f9f9fa);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -91792,7 +91792,7 @@ html, body {
   }
 
   .xl\:via-theme-bg-default {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #ffffff), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .xl\:via-theme-bg-header {
@@ -91808,7 +91808,7 @@ html, body {
   }
 
   .xl\:via-theme-bg-surfaceAlt {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #eeeeee), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .xl\:via-theme-bg-primary {
@@ -91868,7 +91868,7 @@ html, body {
   }
 
   .xl\:hover\:via-theme-bg-default:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #ffffff), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .xl\:hover\:via-theme-bg-header:hover {
@@ -91884,7 +91884,7 @@ html, body {
   }
 
   .xl\:hover\:via-theme-bg-surfaceAlt:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #eeeeee), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .xl\:hover\:via-theme-bg-primary:hover {
@@ -91944,7 +91944,7 @@ html, body {
   }
 
   .xl\:focus\:via-theme-bg-default:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #ffffff), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .xl\:focus\:via-theme-bg-header:focus {
@@ -91960,7 +91960,7 @@ html, body {
   }
 
   .xl\:focus\:via-theme-bg-surfaceAlt:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #eeeeee), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .xl\:focus\:via-theme-bg-primary:focus {
@@ -92020,7 +92020,7 @@ html, body {
   }
 
   .xl\:to-theme-bg-default {
-    --tw-gradient-to: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-to: var(--theme-bg-default, #ffffff);
   }
 
   .xl\:to-theme-bg-header {
@@ -92036,7 +92036,7 @@ html, body {
   }
 
   .xl\:to-theme-bg-surfaceAlt {
-    --tw-gradient-to: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-to: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .xl\:to-theme-bg-primary {
@@ -92096,7 +92096,7 @@ html, body {
   }
 
   .xl\:hover\:to-theme-bg-default:hover {
-    --tw-gradient-to: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-to: var(--theme-bg-default, #ffffff);
   }
 
   .xl\:hover\:to-theme-bg-header:hover {
@@ -92112,7 +92112,7 @@ html, body {
   }
 
   .xl\:hover\:to-theme-bg-surfaceAlt:hover {
-    --tw-gradient-to: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-to: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .xl\:hover\:to-theme-bg-primary:hover {
@@ -92172,7 +92172,7 @@ html, body {
   }
 
   .xl\:focus\:to-theme-bg-default:focus {
-    --tw-gradient-to: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-to: var(--theme-bg-default, #ffffff);
   }
 
   .xl\:focus\:to-theme-bg-header:focus {
@@ -92188,7 +92188,7 @@ html, body {
   }
 
   .xl\:focus\:to-theme-bg-surfaceAlt:focus {
-    --tw-gradient-to: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-to: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .xl\:focus\:to-theme-bg-primary:focus {
@@ -93813,7 +93813,7 @@ html, body {
   }
 
   .xl\:text-theme-bg-default {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .xl\:text-theme-bg-header {
@@ -93829,7 +93829,7 @@ html, body {
   }
 
   .xl\:text-theme-bg-surfaceAlt {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .xl\:text-theme-bg-primary {
@@ -93889,7 +93889,7 @@ html, body {
   }
 
   .group:hover .xl\:group-hover\:text-theme-bg-default {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .group:hover .xl\:group-hover\:text-theme-bg-header {
@@ -93905,7 +93905,7 @@ html, body {
   }
 
   .group:hover .xl\:group-hover\:text-theme-bg-surfaceAlt {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .group:hover .xl\:group-hover\:text-theme-bg-primary {
@@ -93965,7 +93965,7 @@ html, body {
   }
 
   .xl\:focus-within\:text-theme-bg-default:focus-within {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .xl\:focus-within\:text-theme-bg-header:focus-within {
@@ -93981,7 +93981,7 @@ html, body {
   }
 
   .xl\:focus-within\:text-theme-bg-surfaceAlt:focus-within {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .xl\:focus-within\:text-theme-bg-primary:focus-within {
@@ -94041,7 +94041,7 @@ html, body {
   }
 
   .xl\:hover\:text-theme-bg-default:hover {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .xl\:hover\:text-theme-bg-header:hover {
@@ -94057,7 +94057,7 @@ html, body {
   }
 
   .xl\:hover\:text-theme-bg-surfaceAlt:hover {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .xl\:hover\:text-theme-bg-primary:hover {
@@ -94117,7 +94117,7 @@ html, body {
   }
 
   .xl\:focus\:text-theme-bg-default:focus {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .xl\:focus\:text-theme-bg-header:focus {
@@ -94133,7 +94133,7 @@ html, body {
   }
 
   .xl\:focus\:text-theme-bg-surfaceAlt:focus {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .xl\:focus\:text-theme-bg-primary:focus {
@@ -94563,15 +94563,15 @@ html, body {
   }
 
   .xl\:placeholder-theme-bg-default::-moz-placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .xl\:placeholder-theme-bg-default:-ms-input-placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .xl\:placeholder-theme-bg-default::placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .xl\:placeholder-theme-bg-header::-moz-placeholder {
@@ -94611,15 +94611,15 @@ html, body {
   }
 
   .xl\:placeholder-theme-bg-surfaceAlt::-moz-placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .xl\:placeholder-theme-bg-surfaceAlt:-ms-input-placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .xl\:placeholder-theme-bg-surfaceAlt::placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .xl\:placeholder-theme-bg-primary::-moz-placeholder {
@@ -94791,15 +94791,15 @@ html, body {
   }
 
   .xl\:focus\:placeholder-theme-bg-default:focus::-moz-placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .xl\:focus\:placeholder-theme-bg-default:focus:-ms-input-placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .xl\:focus\:placeholder-theme-bg-default:focus::placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .xl\:focus\:placeholder-theme-bg-header:focus::-moz-placeholder {
@@ -94839,15 +94839,15 @@ html, body {
   }
 
   .xl\:focus\:placeholder-theme-bg-surfaceAlt:focus::-moz-placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .xl\:focus\:placeholder-theme-bg-surfaceAlt:focus:-ms-input-placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .xl\:focus\:placeholder-theme-bg-surfaceAlt:focus::placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .xl\:focus\:placeholder-theme-bg-primary:focus::-moz-placeholder {
@@ -96172,7 +96172,7 @@ html, body {
   }
 
   .xl\:ring-theme-bg-default {
-    --tw-ring-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-color: var(--theme-bg-default, #ffffff);
   }
 
   .xl\:ring-theme-bg-header {
@@ -96188,7 +96188,7 @@ html, body {
   }
 
   .xl\:ring-theme-bg-surfaceAlt {
-    --tw-ring-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .xl\:ring-theme-bg-primary {
@@ -96248,7 +96248,7 @@ html, body {
   }
 
   .xl\:focus-within\:ring-theme-bg-default:focus-within {
-    --tw-ring-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-color: var(--theme-bg-default, #ffffff);
   }
 
   .xl\:focus-within\:ring-theme-bg-header:focus-within {
@@ -96264,7 +96264,7 @@ html, body {
   }
 
   .xl\:focus-within\:ring-theme-bg-surfaceAlt:focus-within {
-    --tw-ring-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .xl\:focus-within\:ring-theme-bg-primary:focus-within {
@@ -96324,7 +96324,7 @@ html, body {
   }
 
   .xl\:focus\:ring-theme-bg-default:focus {
-    --tw-ring-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-color: var(--theme-bg-default, #ffffff);
   }
 
   .xl\:focus\:ring-theme-bg-header:focus {
@@ -96340,7 +96340,7 @@ html, body {
   }
 
   .xl\:focus\:ring-theme-bg-surfaceAlt:focus {
-    --tw-ring-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .xl\:focus\:ring-theme-bg-primary:focus {
@@ -96640,7 +96640,7 @@ html, body {
   }
 
   .xl\:ring-offset-theme-bg-default {
-    --tw-ring-offset-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-offset-color: var(--theme-bg-default, #ffffff);
   }
 
   .xl\:ring-offset-theme-bg-header {
@@ -96656,7 +96656,7 @@ html, body {
   }
 
   .xl\:ring-offset-theme-bg-surfaceAlt {
-    --tw-ring-offset-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-offset-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .xl\:ring-offset-theme-bg-primary {
@@ -96716,7 +96716,7 @@ html, body {
   }
 
   .xl\:focus-within\:ring-offset-theme-bg-default:focus-within {
-    --tw-ring-offset-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-offset-color: var(--theme-bg-default, #ffffff);
   }
 
   .xl\:focus-within\:ring-offset-theme-bg-header:focus-within {
@@ -96732,7 +96732,7 @@ html, body {
   }
 
   .xl\:focus-within\:ring-offset-theme-bg-surfaceAlt:focus-within {
-    --tw-ring-offset-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-offset-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .xl\:focus-within\:ring-offset-theme-bg-primary:focus-within {
@@ -96792,7 +96792,7 @@ html, body {
   }
 
   .xl\:focus\:ring-offset-theme-bg-default:focus {
-    --tw-ring-offset-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-offset-color: var(--theme-bg-default, #ffffff);
   }
 
   .xl\:focus\:ring-offset-theme-bg-header:focus {
@@ -96808,7 +96808,7 @@ html, body {
   }
 
   .xl\:focus\:ring-offset-theme-bg-surfaceAlt:focus {
-    --tw-ring-offset-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-offset-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .xl\:focus\:ring-offset-theme-bg-primary:focus {
@@ -108660,7 +108660,7 @@ html, body {
   }
 
   .\32xl\:divide-theme-bg-default > :not([hidden]) ~ :not([hidden]) {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .\32xl\:divide-theme-bg-header > :not([hidden]) ~ :not([hidden]) {
@@ -108676,7 +108676,7 @@ html, body {
   }
 
   .\32xl\:divide-theme-bg-surfaceAlt > :not([hidden]) ~ :not([hidden]) {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .\32xl\:divide-theme-bg-primary > :not([hidden]) ~ :not([hidden]) {
@@ -109474,7 +109474,7 @@ html, body {
   }
 
   .\32xl\:border-theme-bg-default {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .\32xl\:border-theme-bg-header {
@@ -109490,7 +109490,7 @@ html, body {
   }
 
   .\32xl\:border-theme-bg-surfaceAlt {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .\32xl\:border-theme-bg-primary {
@@ -109550,7 +109550,7 @@ html, body {
   }
 
   .group:hover .\32xl\:group-hover\:border-theme-bg-default {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .group:hover .\32xl\:group-hover\:border-theme-bg-header {
@@ -109566,7 +109566,7 @@ html, body {
   }
 
   .group:hover .\32xl\:group-hover\:border-theme-bg-surfaceAlt {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .group:hover .\32xl\:group-hover\:border-theme-bg-primary {
@@ -109626,7 +109626,7 @@ html, body {
   }
 
   .\32xl\:focus-within\:border-theme-bg-default:focus-within {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .\32xl\:focus-within\:border-theme-bg-header:focus-within {
@@ -109642,7 +109642,7 @@ html, body {
   }
 
   .\32xl\:focus-within\:border-theme-bg-surfaceAlt:focus-within {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .\32xl\:focus-within\:border-theme-bg-primary:focus-within {
@@ -109702,7 +109702,7 @@ html, body {
   }
 
   .\32xl\:hover\:border-theme-bg-default:hover {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .\32xl\:hover\:border-theme-bg-header:hover {
@@ -109718,7 +109718,7 @@ html, body {
   }
 
   .\32xl\:hover\:border-theme-bg-surfaceAlt:hover {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .\32xl\:hover\:border-theme-bg-primary:hover {
@@ -109778,7 +109778,7 @@ html, body {
   }
 
   .\32xl\:focus\:border-theme-bg-default:focus {
-    border-color: var(--theme-bg-default, #f9f9fa);
+    border-color: var(--theme-bg-default, #ffffff);
   }
 
   .\32xl\:focus\:border-theme-bg-header:focus {
@@ -109794,7 +109794,7 @@ html, body {
   }
 
   .\32xl\:focus\:border-theme-bg-surfaceAlt:focus {
-    border-color: var(--theme-bg-surface-alt, #eeeeee);
+    border-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .\32xl\:focus\:border-theme-bg-primary:focus {
@@ -110154,7 +110154,7 @@ html, body {
   }
 
   .\32xl\:bg-theme-bg-default {
-    background-color: var(--theme-bg-default, #f9f9fa);
+    background-color: var(--theme-bg-default, #ffffff);
   }
 
   .\32xl\:bg-theme-bg-header {
@@ -110170,7 +110170,7 @@ html, body {
   }
 
   .\32xl\:bg-theme-bg-surfaceAlt {
-    background-color: var(--theme-bg-surface-alt, #eeeeee);
+    background-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .\32xl\:bg-theme-bg-primary {
@@ -110230,7 +110230,7 @@ html, body {
   }
 
   .group:hover .\32xl\:group-hover\:bg-theme-bg-default {
-    background-color: var(--theme-bg-default, #f9f9fa);
+    background-color: var(--theme-bg-default, #ffffff);
   }
 
   .group:hover .\32xl\:group-hover\:bg-theme-bg-header {
@@ -110246,7 +110246,7 @@ html, body {
   }
 
   .group:hover .\32xl\:group-hover\:bg-theme-bg-surfaceAlt {
-    background-color: var(--theme-bg-surface-alt, #eeeeee);
+    background-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .group:hover .\32xl\:group-hover\:bg-theme-bg-primary {
@@ -110306,7 +110306,7 @@ html, body {
   }
 
   .\32xl\:focus-within\:bg-theme-bg-default:focus-within {
-    background-color: var(--theme-bg-default, #f9f9fa);
+    background-color: var(--theme-bg-default, #ffffff);
   }
 
   .\32xl\:focus-within\:bg-theme-bg-header:focus-within {
@@ -110322,7 +110322,7 @@ html, body {
   }
 
   .\32xl\:focus-within\:bg-theme-bg-surfaceAlt:focus-within {
-    background-color: var(--theme-bg-surface-alt, #eeeeee);
+    background-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .\32xl\:focus-within\:bg-theme-bg-primary:focus-within {
@@ -110382,7 +110382,7 @@ html, body {
   }
 
   .\32xl\:hover\:bg-theme-bg-default:hover {
-    background-color: var(--theme-bg-default, #f9f9fa);
+    background-color: var(--theme-bg-default, #ffffff);
   }
 
   .\32xl\:hover\:bg-theme-bg-header:hover {
@@ -110398,7 +110398,7 @@ html, body {
   }
 
   .\32xl\:hover\:bg-theme-bg-surfaceAlt:hover {
-    background-color: var(--theme-bg-surface-alt, #eeeeee);
+    background-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .\32xl\:hover\:bg-theme-bg-primary:hover {
@@ -110458,7 +110458,7 @@ html, body {
   }
 
   .\32xl\:focus\:bg-theme-bg-default:focus {
-    background-color: var(--theme-bg-default, #f9f9fa);
+    background-color: var(--theme-bg-default, #ffffff);
   }
 
   .\32xl\:focus\:bg-theme-bg-header:focus {
@@ -110474,7 +110474,7 @@ html, body {
   }
 
   .\32xl\:focus\:bg-theme-bg-surfaceAlt:focus {
-    background-color: var(--theme-bg-surface-alt, #eeeeee);
+    background-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .\32xl\:focus\:bg-theme-bg-primary:focus {
@@ -110870,7 +110870,7 @@ html, body {
   }
 
   .\32xl\:from-theme-bg-default {
-    --tw-gradient-from: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-from: var(--theme-bg-default, #ffffff);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -110890,7 +110890,7 @@ html, body {
   }
 
   .\32xl\:from-theme-bg-surfaceAlt {
-    --tw-gradient-from: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-from: var(--theme-bg-surface-alt, #f9f9fa);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -110965,7 +110965,7 @@ html, body {
   }
 
   .\32xl\:hover\:from-theme-bg-default:hover {
-    --tw-gradient-from: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-from: var(--theme-bg-default, #ffffff);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -110985,7 +110985,7 @@ html, body {
   }
 
   .\32xl\:hover\:from-theme-bg-surfaceAlt:hover {
-    --tw-gradient-from: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-from: var(--theme-bg-surface-alt, #f9f9fa);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -111060,7 +111060,7 @@ html, body {
   }
 
   .\32xl\:focus\:from-theme-bg-default:focus {
-    --tw-gradient-from: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-from: var(--theme-bg-default, #ffffff);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -111080,7 +111080,7 @@ html, body {
   }
 
   .\32xl\:focus\:from-theme-bg-surfaceAlt:focus {
-    --tw-gradient-from: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-from: var(--theme-bg-surface-alt, #f9f9fa);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -111155,7 +111155,7 @@ html, body {
   }
 
   .\32xl\:via-theme-bg-default {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #ffffff), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .\32xl\:via-theme-bg-header {
@@ -111171,7 +111171,7 @@ html, body {
   }
 
   .\32xl\:via-theme-bg-surfaceAlt {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #eeeeee), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .\32xl\:via-theme-bg-primary {
@@ -111231,7 +111231,7 @@ html, body {
   }
 
   .\32xl\:hover\:via-theme-bg-default:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #ffffff), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .\32xl\:hover\:via-theme-bg-header:hover {
@@ -111247,7 +111247,7 @@ html, body {
   }
 
   .\32xl\:hover\:via-theme-bg-surfaceAlt:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #eeeeee), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .\32xl\:hover\:via-theme-bg-primary:hover {
@@ -111307,7 +111307,7 @@ html, body {
   }
 
   .\32xl\:focus\:via-theme-bg-default:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-default, #ffffff), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .\32xl\:focus\:via-theme-bg-header:focus {
@@ -111323,7 +111323,7 @@ html, body {
   }
 
   .\32xl\:focus\:via-theme-bg-surfaceAlt:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #eeeeee), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-surface-alt, #f9f9fa), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .\32xl\:focus\:via-theme-bg-primary:focus {
@@ -111383,7 +111383,7 @@ html, body {
   }
 
   .\32xl\:to-theme-bg-default {
-    --tw-gradient-to: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-to: var(--theme-bg-default, #ffffff);
   }
 
   .\32xl\:to-theme-bg-header {
@@ -111399,7 +111399,7 @@ html, body {
   }
 
   .\32xl\:to-theme-bg-surfaceAlt {
-    --tw-gradient-to: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-to: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .\32xl\:to-theme-bg-primary {
@@ -111459,7 +111459,7 @@ html, body {
   }
 
   .\32xl\:hover\:to-theme-bg-default:hover {
-    --tw-gradient-to: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-to: var(--theme-bg-default, #ffffff);
   }
 
   .\32xl\:hover\:to-theme-bg-header:hover {
@@ -111475,7 +111475,7 @@ html, body {
   }
 
   .\32xl\:hover\:to-theme-bg-surfaceAlt:hover {
-    --tw-gradient-to: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-to: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .\32xl\:hover\:to-theme-bg-primary:hover {
@@ -111535,7 +111535,7 @@ html, body {
   }
 
   .\32xl\:focus\:to-theme-bg-default:focus {
-    --tw-gradient-to: var(--theme-bg-default, #f9f9fa);
+    --tw-gradient-to: var(--theme-bg-default, #ffffff);
   }
 
   .\32xl\:focus\:to-theme-bg-header:focus {
@@ -111551,7 +111551,7 @@ html, body {
   }
 
   .\32xl\:focus\:to-theme-bg-surfaceAlt:focus {
-    --tw-gradient-to: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-gradient-to: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .\32xl\:focus\:to-theme-bg-primary:focus {
@@ -113176,7 +113176,7 @@ html, body {
   }
 
   .\32xl\:text-theme-bg-default {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .\32xl\:text-theme-bg-header {
@@ -113192,7 +113192,7 @@ html, body {
   }
 
   .\32xl\:text-theme-bg-surfaceAlt {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .\32xl\:text-theme-bg-primary {
@@ -113252,7 +113252,7 @@ html, body {
   }
 
   .group:hover .\32xl\:group-hover\:text-theme-bg-default {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .group:hover .\32xl\:group-hover\:text-theme-bg-header {
@@ -113268,7 +113268,7 @@ html, body {
   }
 
   .group:hover .\32xl\:group-hover\:text-theme-bg-surfaceAlt {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .group:hover .\32xl\:group-hover\:text-theme-bg-primary {
@@ -113328,7 +113328,7 @@ html, body {
   }
 
   .\32xl\:focus-within\:text-theme-bg-default:focus-within {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .\32xl\:focus-within\:text-theme-bg-header:focus-within {
@@ -113344,7 +113344,7 @@ html, body {
   }
 
   .\32xl\:focus-within\:text-theme-bg-surfaceAlt:focus-within {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .\32xl\:focus-within\:text-theme-bg-primary:focus-within {
@@ -113404,7 +113404,7 @@ html, body {
   }
 
   .\32xl\:hover\:text-theme-bg-default:hover {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .\32xl\:hover\:text-theme-bg-header:hover {
@@ -113420,7 +113420,7 @@ html, body {
   }
 
   .\32xl\:hover\:text-theme-bg-surfaceAlt:hover {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .\32xl\:hover\:text-theme-bg-primary:hover {
@@ -113480,7 +113480,7 @@ html, body {
   }
 
   .\32xl\:focus\:text-theme-bg-default:focus {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .\32xl\:focus\:text-theme-bg-header:focus {
@@ -113496,7 +113496,7 @@ html, body {
   }
 
   .\32xl\:focus\:text-theme-bg-surfaceAlt:focus {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .\32xl\:focus\:text-theme-bg-primary:focus {
@@ -113926,15 +113926,15 @@ html, body {
   }
 
   .\32xl\:placeholder-theme-bg-default::-moz-placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .\32xl\:placeholder-theme-bg-default:-ms-input-placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .\32xl\:placeholder-theme-bg-default::placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .\32xl\:placeholder-theme-bg-header::-moz-placeholder {
@@ -113974,15 +113974,15 @@ html, body {
   }
 
   .\32xl\:placeholder-theme-bg-surfaceAlt::-moz-placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .\32xl\:placeholder-theme-bg-surfaceAlt:-ms-input-placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .\32xl\:placeholder-theme-bg-surfaceAlt::placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .\32xl\:placeholder-theme-bg-primary::-moz-placeholder {
@@ -114154,15 +114154,15 @@ html, body {
   }
 
   .\32xl\:focus\:placeholder-theme-bg-default:focus::-moz-placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .\32xl\:focus\:placeholder-theme-bg-default:focus:-ms-input-placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .\32xl\:focus\:placeholder-theme-bg-default:focus::placeholder {
-    color: var(--theme-bg-default, #f9f9fa);
+    color: var(--theme-bg-default, #ffffff);
   }
 
   .\32xl\:focus\:placeholder-theme-bg-header:focus::-moz-placeholder {
@@ -114202,15 +114202,15 @@ html, body {
   }
 
   .\32xl\:focus\:placeholder-theme-bg-surfaceAlt:focus::-moz-placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .\32xl\:focus\:placeholder-theme-bg-surfaceAlt:focus:-ms-input-placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .\32xl\:focus\:placeholder-theme-bg-surfaceAlt:focus::placeholder {
-    color: var(--theme-bg-surface-alt, #eeeeee);
+    color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .\32xl\:focus\:placeholder-theme-bg-primary:focus::-moz-placeholder {
@@ -115535,7 +115535,7 @@ html, body {
   }
 
   .\32xl\:ring-theme-bg-default {
-    --tw-ring-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-color: var(--theme-bg-default, #ffffff);
   }
 
   .\32xl\:ring-theme-bg-header {
@@ -115551,7 +115551,7 @@ html, body {
   }
 
   .\32xl\:ring-theme-bg-surfaceAlt {
-    --tw-ring-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .\32xl\:ring-theme-bg-primary {
@@ -115611,7 +115611,7 @@ html, body {
   }
 
   .\32xl\:focus-within\:ring-theme-bg-default:focus-within {
-    --tw-ring-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-color: var(--theme-bg-default, #ffffff);
   }
 
   .\32xl\:focus-within\:ring-theme-bg-header:focus-within {
@@ -115627,7 +115627,7 @@ html, body {
   }
 
   .\32xl\:focus-within\:ring-theme-bg-surfaceAlt:focus-within {
-    --tw-ring-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .\32xl\:focus-within\:ring-theme-bg-primary:focus-within {
@@ -115687,7 +115687,7 @@ html, body {
   }
 
   .\32xl\:focus\:ring-theme-bg-default:focus {
-    --tw-ring-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-color: var(--theme-bg-default, #ffffff);
   }
 
   .\32xl\:focus\:ring-theme-bg-header:focus {
@@ -115703,7 +115703,7 @@ html, body {
   }
 
   .\32xl\:focus\:ring-theme-bg-surfaceAlt:focus {
-    --tw-ring-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .\32xl\:focus\:ring-theme-bg-primary:focus {
@@ -116003,7 +116003,7 @@ html, body {
   }
 
   .\32xl\:ring-offset-theme-bg-default {
-    --tw-ring-offset-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-offset-color: var(--theme-bg-default, #ffffff);
   }
 
   .\32xl\:ring-offset-theme-bg-header {
@@ -116019,7 +116019,7 @@ html, body {
   }
 
   .\32xl\:ring-offset-theme-bg-surfaceAlt {
-    --tw-ring-offset-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-offset-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .\32xl\:ring-offset-theme-bg-primary {
@@ -116079,7 +116079,7 @@ html, body {
   }
 
   .\32xl\:focus-within\:ring-offset-theme-bg-default:focus-within {
-    --tw-ring-offset-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-offset-color: var(--theme-bg-default, #ffffff);
   }
 
   .\32xl\:focus-within\:ring-offset-theme-bg-header:focus-within {
@@ -116095,7 +116095,7 @@ html, body {
   }
 
   .\32xl\:focus-within\:ring-offset-theme-bg-surfaceAlt:focus-within {
-    --tw-ring-offset-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-offset-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .\32xl\:focus-within\:ring-offset-theme-bg-primary:focus-within {
@@ -116155,7 +116155,7 @@ html, body {
   }
 
   .\32xl\:focus\:ring-offset-theme-bg-default:focus {
-    --tw-ring-offset-color: var(--theme-bg-default, #f9f9fa);
+    --tw-ring-offset-color: var(--theme-bg-default, #ffffff);
   }
 
   .\32xl\:focus\:ring-offset-theme-bg-header:focus {
@@ -116171,7 +116171,7 @@ html, body {
   }
 
   .\32xl\:focus\:ring-offset-theme-bg-surfaceAlt:focus {
-    --tw-ring-offset-color: var(--theme-bg-surface-alt, #eeeeee);
+    --tw-ring-offset-color: var(--theme-bg-surface-alt, #f9f9fa);
   }
 
   .\32xl\:focus\:ring-offset-theme-bg-primary:focus {
