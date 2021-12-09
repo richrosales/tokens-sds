@@ -8,13 +8,17 @@
   --theme-bg-secondary: #adb4bc;
   --theme-bg-subtle: #eceef0;
   --theme-bg-muted: #cfd3d8;
+  --theme-bg-promo: #f00;
   --theme-fg-default: #000000;
-  --theme-fg-on-accent: #ffffff;
+  --theme-fg-on-primary: #ffffff;
+  --theme-fg-on-secondary: #ffffff;
   --theme-fg-on-header: #eceef0;
   --theme-fg-on-footer: #cfd3d8;
   --theme-fg-muted: #7f8a97;
   --theme-fg-subtle: #adb4bc;
   --theme-fg-link: #005f9e;
+  --theme-fg-promo: #f00;
+  --theme-fg-on-promo: #ffffff;
   --theme-button-primary-background: #005f9e;
   --theme-button-ghost-outline: #000000;
   --theme-button-ghost-text: #000000;
