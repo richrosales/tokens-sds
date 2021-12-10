@@ -38,7 +38,7 @@
         "type": "color"
       },
       "promo": {
-        "value": "#f00",
+        "value": "#d72027",
         "type": "color"
       }
     },
@@ -76,7 +76,7 @@
         "type": "color"
       },
       "promo": {
-        "value": "#f00",
+        "value": "#d72027",
         "type": "color"
       },
       "onPromo": {
