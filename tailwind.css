@@ -640,6 +640,8 @@ video {
   --theme-font-families-body: Helvetica Neue Condensed;
   --theme-font-families-nav: Gotham;
   --theme-font-sizes-default: 16;
+  --display: uppercase;
+  --navigation: uppercase;
 }
 
 /* @import "output/dark.css"; */
