@@ -43,14 +43,6 @@ function getStyleDictionaryConfig(theme) {
           "format": "css/variables",
           "selector": `.${theme}-theme`
         }]
-      },
-      "scss": {
-        "transformGroup": "scss",
-        "files": [{
-          "destination": `${theme}-map.css`,
-          "format": "scss/map-deep",
-          "mapName": "my-tokens"
-        }]
       }
     }
   };
