@@ -152,5 +152,9 @@
   "navigation": {
     "value": "uppercase",
     "type": "textCase"
+  },
+  "body": {
+    "value": "none",
+    "type": "textCase"
   }
 }

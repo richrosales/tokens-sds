@@ -642,6 +642,7 @@ video {
   --theme-font-sizes-default: 16;
   --display: uppercase;
   --navigation: uppercase;
+  --body: none;
 }
 
 /* @import "output/dark.css"; */
